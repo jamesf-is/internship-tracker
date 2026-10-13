@@ -12,7 +12,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "d39fa0d0dc0f2e96": {
    "title": "2027 Internship - Weapon Control",
@@ -26,7 +26,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "081aadb98acb7b13": {
    "title": "Integration Test Engineer Intern - Marine",
@@ -40,7 +40,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "f6096678910fcfb6": {
    "title": "Industrial or Mechanical Engineering Intern",
@@ -54,7 +54,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "43fa74999df4c820": {
    "title": "Test Engineer Intern - Summer 2027",
@@ -194,7 +194,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "2558638aaa6eebc7": {
    "title": "Systems Engineering Intern - Mechanical/Aerospace Engineering (Electric Power) - US - Summer 2027 - Returning Students",
@@ -208,7 +208,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "8368c75edc3f05a4": {
    "title": "Flight Test Engineer Intern (Summer 2027)",
@@ -222,7 +222,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "04cad83d35d4e9d5": {
    "title": "Head-up Guidance Systems Engineering Co-op (Spring/Summer 2027) - Onsite",
@@ -320,7 +320,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "d368ad63e22ce9c3": {
    "title": "Summer 2027 - Mechanical Engineering Intern",
@@ -348,7 +348,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "5f48156e4e134777": {
    "title": "Manufacturing Engineering Intern \u2013 US \u2013 Summer 2027 - Returning Students",
@@ -362,7 +362,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "df7d6647abfe6e84": {
    "title": "Aerospace Engineer Intern- Summer 2027",
@@ -432,7 +432,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "6da864e6ecdd2998": {
    "title": "Intern, R&D Undergraduate Year-Round - Metallurgy & Welding Engineering, Onsite",
@@ -446,7 +446,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "89c20f901841c0ad": {
    "title": "Mechanical Engineer Intern",
@@ -460,7 +460,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "cac17ce8b01667f1": {
    "title": "R&D Engineering Intern",
@@ -474,7 +474,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "58ef5a9eae8c6221": {
    "title": "Intern, RD Graduate Summer - Nonlinear Mechanics and Dynamics (NOMAD), Onsite",
@@ -488,7 +488,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "e08ffffca41f618a": {
    "title": "Product Engineering Co-Op",
@@ -502,7 +502,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "dda60a87ffebc068": {
    "title": "Mechanical Engineer (Intern)",
@@ -516,7 +516,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "9591e0802f277fdd": {
    "title": "Intern, R&D Graduate Summer - Research and Applications of Mechanics of Structures (RAMS), Onsite",
@@ -530,7 +530,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "f4b963759fa9d6e3": {
    "title": "Junior Mechanical Engineer - Internship",
@@ -544,7 +544,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "b3aa548529b974a3": {
    "title": "Intern, R&D Undergraduate Summer - Design Engineering Mechanical Design, Onsite",
@@ -572,7 +572,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "d9752a498dec7c26": {
    "title": "Intern - Mechanical Design Engineer",
@@ -586,7 +586,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "4a56998d323eb3f4": {
    "title": "Mechanical Engineer Co-Op",
@@ -600,7 +600,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "f7d449d98975b90b": {
    "title": "Mechanical Engineering Co-Op",
@@ -614,7 +614,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "a37817a33f1c4f68": {
    "title": "2027 Co-op - Mechanical Engineer",
@@ -628,7 +628,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "fa944365396489df": {
    "title": "2027 Summer Mechanical Engineering Intern - Raleigh",
@@ -642,7 +642,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "e9e42e657af7bdfa": {
    "title": "Intern, R&D Undergraduate Summer - Nonlinear Mechanics and Dynamics (NOMAD), Onsite",
@@ -670,7 +670,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "8ffe7ae84edbb84e": {
    "title": "Summer 2027 Mechanical Engineer Intern- Bachelor's (Austin, TX)",
@@ -684,7 +684,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "1d55d5252edb768e": {
    "title": "Assembly, Integration, and Test Intern (Summer 2027)",
@@ -866,7 +866,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "198bb299c7dab370": {
    "title": "Environmental, Health, and Safety (EHS) Intern - 2027",
@@ -880,7 +880,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "83d471cf163a9c16": {
    "title": "Loads & Dynamics Engineering Intern - Summer 2027",
@@ -894,7 +894,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "ad06fe8a20b9620b": {
    "title": "Manufacturing Engineering Intern - Spring/Summer 2027",
@@ -908,7 +908,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "be7603b3a579daa0": {
    "title": "Mechanical Engineering Intern  - Spring/Summer 2027",
@@ -922,7 +922,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "dc25d12264383256": {
    "title": "Mission Systems Engineering Intern - Spring/Summer 2027",
@@ -936,7 +936,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "791445458c2bff2d": {
    "title": "Structures/Mechanical Engineering Intern - Spring/Summer 2027",
@@ -950,7 +950,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "a6040be2305dc484": {
    "title": "Subsystem Test Engineering Intern - Spring/Summer 2027",
@@ -964,7 +964,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "a952263b9b84f7fa": {
    "title": "Test and Operations Engineering Intern - Spring/Summer 2027",
@@ -978,7 +978,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "05fe9441e6a58da5": {
    "title": "Environmental Test Engineering Intern (Summer 2027)",
@@ -1524,7 +1524,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "175ea3a1c4be5fe6": {
    "title": "Manufacturing Engineer Intern (Summer 2027)",
@@ -1566,7 +1566,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "1ab85597265ea1ce": {
    "title": "Aerodynamics & Analysis Engineering Internship - Summer 2027",
@@ -1818,7 +1818,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "59cc877ad34fd8f7": {
    "title": "Chandler Manufacturing Technician Intern - Fall",
@@ -1832,7 +1832,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "3f733f119a851c00": {
    "title": "San Diego Manufacturing Technician Intern - Fall",
@@ -1846,7 +1846,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "259a09fc759ef68a": {
    "title": "Boeing Summer 2027 Internship Program (Paid) - Quality Engineering Intern",
@@ -1874,7 +1874,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "21342f9ee2d8123a": {
    "title": "Boeing Engineering & Technology Innovation Graduate Researcher Program, Applied Mathematician Intern",
@@ -1888,7 +1888,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "356c3000863778ce": {
    "title": "Aerospace Engineering Internship",
@@ -1916,7 +1916,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "9d09e0c6a41c9a28": {
    "title": "Boeing Engineering & Technology Innovation Graduate Researcher Program, Computational Fluid Dynamics (CFD) Intern",
@@ -1930,7 +1930,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "1d44c3b7a186884b": {
    "title": "Mechanical Engineering Intern (Summer 2027)",
@@ -1944,7 +1944,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "e398d3b66f8f6898": {
    "title": "Mechanical Engineer Intern (Summer 2027)",
@@ -1958,7 +1958,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "d46aed6d0d452691": {
    "title": "Radar Engineer Intern",
@@ -2014,7 +2014,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "7a4cc754434c0cd2": {
    "title": "Bridge Engineering Intern",
@@ -2210,7 +2210,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "539286f8c273ebc8": {
    "title": "Summer 2027 Aerospace Systems Engineering Internship -  Undergraduate",
@@ -14298,5 +14298,5 @@
   }
  },
  "last_email_date": "2026-10-13",
- "runs": 1
+ "runs": 2
 }
