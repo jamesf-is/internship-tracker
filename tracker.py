@@ -45,31 +45,95 @@ def job_key(j):
     return hashlib.sha1(f"{norm_company(j['company'])}|{t}|{city}".encode()).hexdigest()[:16]
 
 
+def is_aero_company(j, aero_companies):
+    name = j.get("company") or ""
+    n = norm_company(name)
+    if len(n) > 4 and any(n.startswith(a[:10]) or a.startswith(n[:10]) for a in aero_companies if len(a) > 4):
+        return True
+    return (re.search(config.AERO_NAME_RE, name, re.I) is not None
+            or re.search(config.SPACE_DESC_RE, j.get("desc") or "", re.I) is not None)
+
+
 def classify(j, aero_companies=frozenset()):
     """Return (keep, year_confirmed)."""
     title = j.get("title") or ""
-    text = f"{title} {j.get('desc') or ''}"
+    desc = j.get("desc") or ""
+    text = f"{title} {desc}"
     if not re.search(config.INTERN_RE, title, re.I):
         return False, False
     if re.search(config.EXCLUDE_RE, title, re.I):
         return False, False
     if re.search(config.NON_US_RE, j.get("location") or "", re.I):
         return False, False
+
+    # --- summer only
+    has_summer = re.search(r"summer", title, re.I) is not None
+    if re.search(config.NON_SUMMER_TITLE_RE, title, re.I) and not has_summer:
+        return False, False
+    if re.search(r"\bco-?op\b", title, re.I) and not has_summer and not re.search(r"\bintern", title, re.I):
+        return False, False
     has_target = config.TARGET_YEAR in text or j.get("year_confirmed")
-    # explicit other-term (fall 2026, summer 2026, spring 2027 ...) => drop, unless it also names summer 2027
     if re.search(config.OTHER_TERM_RE, text, re.I) and not re.search(r"summer\s*'?(20)?27", text, re.I):
         return False, False
     if re.search(r"\b20(24|25|26)\b", title) and config.TARGET_YEAR not in title:
         return False, False
-    ctx = f"{j.get('company', '')} {j.get('desc', '')}"
+
+    # --- undergraduate only
+    if re.search(config.GRAD_TITLE_RE, title, re.I):
+        return False, False
+    if re.search(config.GRAD_DESC_RE, desc, re.I) and not re.search(config.UNDERGRAD_RE, desc, re.I):
+        return False, False
+
+    # --- space, not air / ocean
+    space_title = re.search(config.SPACE_DESC_RE + r"|\bspace\b", title, re.I) is not None
+    space_text = re.search(config.SPACE_DESC_RE + r"|\bspace\b", text, re.I) is not None
+    if re.search(config.AIR_OCEAN_RE, title, re.I) and not space_title:
+        return False, False
+    if desc and re.search(config.AIR_OCEAN_RE, desc, re.I) and not space_text:
+        return False, False
+
+    # --- aerospace companies only
+    if not is_aero_company(j, aero_companies):
+        return False, False
     n = norm_company(j.get("company"))
-    aero_ctx = (any(n.startswith(a[:10]) or a.startswith(n[:10]) for a in aero_companies if len(a) > 4 and len(n) > 4)
-                or re.search(config.AERO_CONTEXT_RE, ctx, re.I) is not None)
-    relevant = re.search(config.STRONG_RE, title, re.I) is not None
-    if not relevant and aero_ctx:
-        relevant = (re.search(config.WEAK_RE, title, re.I) is not None
-                    or re.search(config.GENERIC_ENG_RE, title, re.I) is not None)
+    if any(n.startswith(p) for p in config.AIR_FOCUSED_COMPANIES) and not space_text:
+        return False, False
+
+    # --- discipline
+    relevant = (re.search(config.STRONG_RE, title, re.I) is not None
+                or re.search(config.WEAK_RE, title, re.I) is not None
+                or re.search(config.GENERIC_ENG_RE, title, re.I) is not None)
     return relevant, bool(has_target)
+
+
+US_STATES = {
+    "Alabama": "AL", "Alaska": "AK", "Arizona": "AZ", "Arkansas": "AR", "California": "CA", "Colorado": "CO",
+    "Connecticut": "CT", "Delaware": "DE", "Florida": "FL", "Georgia": "GA", "Hawaii": "HI", "Idaho": "ID",
+    "Illinois": "IL", "Indiana": "IN", "Iowa": "IA", "Kansas": "KS", "Kentucky": "KY", "Louisiana": "LA",
+    "Maine": "ME", "Maryland": "MD", "Massachusetts": "MA", "Michigan": "MI", "Minnesota": "MN",
+    "Mississippi": "MS", "Missouri": "MO", "Montana": "MT", "Nebraska": "NE", "Nevada": "NV",
+    "New Hampshire": "NH", "New Jersey": "NJ", "New Mexico": "NM", "New York": "NY", "North Carolina": "NC",
+    "North Dakota": "ND", "Ohio": "OH", "Oklahoma": "OK", "Oregon": "OR", "Pennsylvania": "PA",
+    "Rhode Island": "RI", "South Carolina": "SC", "South Dakota": "SD", "Tennessee": "TN", "Texas": "TX",
+    "Utah": "UT", "Vermont": "VT", "Virginia": "VA", "Washington": "WA", "West Virginia": "WV",
+    "Wisconsin": "WI", "Wyoming": "WY", "District of Columbia": "DC",
+}
+_ABBRS = set(US_STATES.values())
+
+
+def states_of(location):
+    """'Hawthorne, CA; Kent, Washington, United States' -> ['CA', 'WA']; [] if unknown."""
+    out = []
+    for part in re.split(r"[;|]", location or ""):
+        for name, ab in sorted(US_STATES.items(), key=lambda kv: -len(kv[0])):
+            if re.search(r"\b" + name + r"\b", part):
+                part = re.sub(r"\b" + name + r"\b", " ", part)
+                if ab not in out:
+                    out.append(ab)
+        for tok in re.findall(r"\b[A-Z]{2}\b", part):
+            if tok in _ABBRS and tok not in out:
+                out.append(tok)
+    return out
 
 
 # ------------------------------------------------------------------ state
@@ -91,7 +155,8 @@ def merge(state, raw, ok_labels, aero_companies, now):
         prio = SRC_PRIORITY.get(j["src"].split(":")[0], 5)
         cur = state["jobs"].get(k)
         rec = dict(title=j["title"].strip(), company=j["company"].strip(), location=(j.get("location") or "").strip(),
-                   url=j["url"], src=j["src"], prio=prio, posted=j.get("posted") or "", year_confirmed=yc)
+                   url=j["url"], src=j["src"], prio=prio, posted=j.get("posted") or "", year_confirmed=yc,
+                   desc=(j.get("desc") or "")[:600])
         if cur is None:
             rec.update(first_seen=today, last_seen=today, emailed=False, closed=False)
             state["jobs"][k] = rec
@@ -102,15 +167,17 @@ def merge(state, raw, ok_labels, aero_companies, now):
             cur["posted"] = cur.get("posted") or rec["posted"]
             cur["last_seen"] = today
             cur["closed"] = False
-    # close postings that vanished from a source we fully fetched this run
+    # close postings that vanished from a source we fully fetched this run, or that no longer pass the filters
     for k, rec in state["jobs"].items():
-        if k in seen_keys:
+        if k in seen_keys or rec.get("closed"):
             continue
-        if rec["src"] in ok_labels:
+        if not classify(rec, aero_companies)[0]:
+            rec["closed"] = True
+        elif rec["src"] in ok_labels:
             rec["closed"] = True
         else:
             first = dt.date.fromisoformat(rec["first_seen"])
-            if (now.date() - first).days > config.STALE_DAYS_NONSNAPSHOT and rec["src"] not in ok_labels:
+            if (now.date() - first).days > config.STALE_DAYS_NONSNAPSHOT:
                 rec["closed"] = True
 
 
@@ -126,7 +193,8 @@ def render_page(state, health, companies, now):
     today = now.date()
     for j in jobs:
         j["new"] = (today - dt.date.fromisoformat(j["first_seen"])).days <= 1
-    payload = json.dumps([{k: j[k] for k in ("title", "company", "location", "url", "first_seen", "posted", "year_confirmed", "new", "src")}
+        j["states"] = states_of(j["location"])
+    payload = json.dumps([{k: j[k] for k in ("title", "company", "location", "url", "first_seen", "posted", "year_confirmed", "new", "src", "states")}
                           for j in jobs])
     career = "".join(f'<a href="{html.escape(c["careers_url"])}" target="_blank" rel="noopener">{html.escape(c["company"])}</a>'
                      for c in companies if c.get("careers_url"))
@@ -198,7 +266,12 @@ def main():
     render_page(state, health, companies, now)
 
     page_url = os.environ.get("PAGE_URL", "https://YOUR-USERNAME.github.io/internship-tracker/")
-    pending = [j for j in open_jobs(state) if not state["jobs"][j["key"]]["emailed"]]
+    emailed_urls = set(state.get("emailed_urls", [])) | {v["url"] for v in state["jobs"].values() if v.get("emailed")}
+    pending = [j for j in open_jobs(state)
+               if not state["jobs"][j["key"]]["emailed"] and j["url"] not in emailed_urls]
+    for j in open_jobs(state):  # silently mark repeats so they never come back
+        if j not in pending and not state["jobs"][j["key"]]["emailed"]:
+            state["jobs"][j["key"]]["emailed"] = True
     due = a.force_email or (now.hour >= 9 and state["last_email_date"] != now.date().isoformat())
     if not a.no_email and due and pending:
         subj, body, text = build_email(pending, len(open_jobs(state)), page_url, health, first_run=state["last_email_date"] == "")
@@ -210,6 +283,8 @@ def main():
             print("email sent:", subj)
         for j in pending:
             state["jobs"][j["key"]]["emailed"] = True
+            emailed_urls.add(j["url"])
+        state["emailed_urls"] = sorted(emailed_urls)
         state["last_email_date"] = now.date().isoformat()
     else:
         print(f"no email (due={due}, pending={len(pending)})")

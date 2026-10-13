@@ -9,18 +9,43 @@ INTERN_RE = r"\b(intern|interns|internship|co-?op|coop|student trainee|pathways|
 # accepted at aerospace/defense companies so chip, audio and consulting roles stay out.
 STRONG_RE = (
     r"mechanic|aerospace|aeronaut|astronaut|\bstructur|\bstress|thermal|propulsion|launch|spacecraft|"
-    r"satellite|\bspace\b|rocket|composite|airframe|aircraft|flight|mechanism|orbit|reentry|"
-    r"hypersonic|propellant|\bcfd\b|\bfea\b|\bgnc\b|payload|turbine"
+    r"satellite|\bspace\b|rocket|composite|flight|mechanism|orbit|reentry|"
+    r"hypersonic|propellant|\bcfd\b|\bfea\b|\bgnc\b|payload|turbopump"
 )
 WEAK_RE = (
     r"\bengines?\b|systems? engineer|\btest\b|testing|material|manufacturing|design eng|integration|reliability|"
-    r"quality eng|vehicle|\bcad\b|fluid|dynamics|guidance|mission|missile|weapon|ground support|\bgse\b|"
+    r"quality eng|vehicle|\bcad\b|fluid|dynamics|guidance|mission|ground support|\bgse\b|"
     r"environmental|vibration|metrology|machin|fabrication|welding|additive|production eng|process eng"
 )
 INCLUDE_RE = STRONG_RE + "|" + WEAK_RE
-# ... or be a generic "Engineering Intern" at a company that is clearly aerospace/defense.
+# ... or be a generic "Engineering Intern" title (accepted only at aerospace companies).
 GENERIC_ENG_RE = r"\bengineer|engineering"
-AERO_CONTEXT_RE = r"aerospace|space|aircraft|satellite|rocket|launch|defense|missile|aviation|flight|orbital|lunar"
+
+# A company counts as aerospace if it is on your spreadsheet / the extra list in this file,
+# OR its name looks aerospace, OR the posting text clearly describes space work.
+AERO_NAME_RE = r"aerospace|\baero|space|rocket|orbital|orbit|satellite|launch|astro|lunar|stellar|cosmic"
+SPACE_DESC_RE = r"spacecraft|satellite|launch vehicle|rocket|space systems|space station|orbital|lunar|space exploration|in-space|aerospace"
+
+# Air / ocean work is dropped (title always; description only if it never mentions space).
+AIR_OCEAN_RE = (
+    r"\baircraft|aviation|airframe|helicopter|rotorcraft|fixed[- ]wing|\bmarine|naval|\bocean|undersea|"
+    r"maritime|submarine|\bships?\b|shipbuilding|commercial airplane|fighter|jet engine|\buas\b|\buav\b|drone"
+)
+# Companies that mostly do aircraft: their postings must explicitly mention space to be kept.
+# (matched as prefixes of the normalized company name)
+AIR_FOCUSED_COMPANIES = [
+    "gulfstream", "textron", "bell", "archer", "joby", "boom", "spirit", "generalatomics", "magellan",
+    "triumph", "kaman", "geaerospace", "prattwhitney", "safran", "raytheon", "hermeus", "skyryse",
+    "venus", "sceye", "zipline", "aerovironment", "parker",
+]
+
+# Undergraduate summer only.
+GRAD_TITLE_RE = r"\b(graduate|grad|master'?s?|phd|ph\.d|doctoral|returning|post-?bac|postgraduate)\b"
+GRAD_DESC_RE = (r"graduate student|master'?s? (degree )?(student|program|candidate)|enrolled in a graduate|"
+                r"ph\.?d\.? (student|candidate)|returning (intern|student|co-?op)s?|must be a returning|"
+                r"rising (second|2nd)[- ]year (master|graduate)")
+UNDERGRAD_RE = r"undergrad|bachelor|rising (sophomore|junior|senior)|sophomore|junior|freshman|b\.?s\.? (degree|student)"
+NON_SUMMER_TITLE_RE = r"\b(fall|spring|winter|autumn|year[- ]round|semester)\b"
 
 # Anything matching these in the TITLE is dropped (finance, AI, software, ...).
 EXCLUDE_RE = (
