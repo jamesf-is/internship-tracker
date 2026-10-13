@@ -110,10 +110,11 @@ def _probe(ats, slug, name=""):
             return r.status_code == 200 and isinstance(r.json(), list)
         if ats == "ashby":
             r = _get(f"https://api.ashbyhq.com/posting-api/job-board/{slug}", timeout=12)
-            return r.status_code == 200 and "jobs" in r.json()
+            return r.status_code == 200 and bool(r.json().get("jobs"))
         if ats == "workable":
             r = _get(f"https://apply.workable.com/api/v1/widget/accounts/{slug}", timeout=12)
-            return r.status_code == 200 and "jobs" in r.json() and (not r.json().get("name") or _same_company(name, r.json()["name"]))
+            return (r.status_code == 200 and "jobs" in r.json() and bool(r.json().get("name"))
+                    and _same_company(name, r.json()["name"]))
         if ats == "smartrecruiters":
             r = _get(f"https://api.smartrecruiters.com/v1/companies/{slug}/postings?limit=1", timeout=12)
             if not (r.status_code == 200 and r.json().get("totalFound", 0) > 0):
@@ -134,7 +135,7 @@ def discover_boards(names, cache, max_age_days=14):
             for ats in ("greenhouse", "lever", "ashby", "workable", "smartrecruiters"):
                 key = f"{ats}:{slug}"
                 c = cache.get(key)
-                if c and c.get("v") == 2 and (c["ok"] or dt.date.fromisoformat(c["checked"]) + dt.timedelta(days=max_age_days) > today):
+                if c and c.get("v") == 3 and (c["ok"] or dt.date.fromisoformat(c["checked"]) + dt.timedelta(days=max_age_days) > today):
                     continue
                 todo.append((key, ats, slug, name))
 
@@ -144,7 +145,7 @@ def discover_boards(names, cache, max_age_days=14):
 
     with ThreadPoolExecutor(16) as ex:
         for key, ats, slug, name, ok in ex.map(run, todo):
-            cache[key] = {"v": 2, "ok": ok, "ats": ats, "slug": slug, "name": name, "checked": today.isoformat()}
+            cache[key] = {"v": 3, "ok": ok, "ats": ats, "slug": slug, "name": name, "checked": today.isoformat()}
     return [v for v in cache.values() if v["ok"]]
 
 
@@ -199,7 +200,11 @@ def fetch_ashby(b):
 
 
 def fetch_workable(b):
-    r = _get(f"https://apply.workable.com/api/v1/widget/accounts/{b['slug']}?details=true")
+    url = f"https://apply.workable.com/api/v1/widget/accounts/{b['slug']}?details=true"
+    r = _get(url)
+    if r.status_code == 429:
+        time.sleep(8)
+        r = _get(url)
     r.raise_for_status()
     out = []
     for j in r.json().get("jobs", []):
@@ -291,6 +296,38 @@ def fetch_workday(w):
             wd, site = res
             RESOLVED[tenant] = f"auto-corrected to {wd}/{site}"
             out, seen = [], set()
+
+
+def parse_successfactors(html, label, base):
+    soup = BeautifulSoup(html, "lxml")
+    out = []
+    for row in soup.select("tr.data-row"):
+        a = row.select_one("a.jobTitle-link")
+        if not a or not a.get("href"):
+            continue
+        loc = row.select_one(".jobLocation")
+        out.append(dict(title=a.get_text(strip=True), company=label,
+                        location=re.sub(r"\s+", " ", loc.get_text(" ", strip=True)).replace(" +", " +") if loc else "",
+                        url=base + a["href"].split("?")[0], posted="", desc="", src=f"sf:{label}"))
+    m = re.search(r"of\s+(\d+)", (soup.select_one(".paginationLabel") or soup).get_text(" ", strip=True))
+    return out, int(m.group(1)) if m else None
+
+
+def fetch_successfactors(w):
+    label, base = w
+    out, start = [], 0
+    while start < 400:
+        r = _get(f"{base}/search/?q=intern&startrow={start}")
+        r.raise_for_status()
+        rows, total = parse_successfactors(r.text, label, base)
+        out += [j for j in rows if _is_internish(j["title"])]
+        if not rows or total is None or start + len(rows) >= total:
+            break
+        start += len(rows)
+        time.sleep(1)
+    if not out:
+        raise RuntimeError("0 postings parsed (site layout may have changed)")
+    return out
 
 
 def parse_linkedin(html):
@@ -441,9 +478,16 @@ def fetch_all(boards_cache, company_names, health):
         except Exception as e:
             return "workday:" + w[1], [], str(e)[:80]
 
+    def run_sf(w):
+        try:
+            return "sf:" + w[0], fetch_successfactors(w), None
+        except Exception as e:
+            return "sf:" + w[0], [], str(e)[:80]
+
     bad = []
-    with ThreadPoolExecutor(8) as ex:
-        results = list(ex.map(run_board, boards)) + list(ex.map(run_wd, config.WORKDAY))
+    with ThreadPoolExecutor(6) as ex:
+        results = (list(ex.map(run_board, boards)) + list(ex.map(run_wd, config.WORKDAY))
+                   + list(ex.map(run_sf, config.SUCCESSFACTORS)))
     for label, j, err in results:
         if err:
             bad.append(f"{label} ({err})")

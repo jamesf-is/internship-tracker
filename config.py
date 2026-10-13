@@ -115,37 +115,29 @@ EXTRA_COMPANIES = [
     "Outpost Space", "Interlune", "Sierra Nevada Corporation", "Virgin Orbit", "Orbital Sciences",
 ]
 
-# Workday tenants: (label, tenant, wdN, site). Best-effort; any that 404 are reported
-# in the run health and simply skipped. Fix/add via each company's careers URL:
-#   https://<tenant>.<wdN>.myworkdayjobs.com/<site>
+# Workday tenants: (label, tenant, wdN, site). ONLY addresses verified against real job URLs.
+# To add one: open any of the company's job postings; the URL looks like
+#   https://<tenant>.<wdN>.myworkdayjobs.com/en-US/<site>/job/...
 WORKDAY = [
     ("Northrop Grumman", "ngc", "wd1", "Northrop_Grumman_External_Site"),
-    ("L3Harris / Aerojet", "l3harris", "wd1", "L3Harris"),
     ("Boeing", "boeing", "wd1", "EXTERNAL_CAREERS"),
     ("RTX (Raytheon, Collins, Pratt)", "globalhr", "wd5", "REC_RTX_Ext_Gateway"),
-    ("GE Aerospace", "ge", "wd5", "GE_ExternalSite"),
-    ("Honeywell", "honeywell", "wd5", "Honeywell"),
-    ("Lockheed Martin", "lmco", "wd1", "LockheedMartinJobs"),
-    ("General Dynamics Mission Systems", "gdmissionsystems", "wd1", "External_Career_Site"),
     ("Leidos", "leidos", "wd5", "External"),
-    ("Textron", "textron", "wd1", "textron"),
-    ("BAE Systems", "baesystems", "wd3", "BAE_Systems"),
     ("MITRE", "mitre", "wd5", "MITRE"),
     ("Parsons", "parsons", "wd5", "Search"),
-    ("Peraton", "peraton", "wd1", "Careers"),
     ("Blue Origin", "blueorigin", "wd5", "BlueOrigin"),
-    ("Spirit AeroSystems", "spiritaero", "wd1", "Spirit_Careers"),
-    ("Sierra Space", "sierraspace", "wd5", "sierra_space_careers"),
-    ("Johns Hopkins APL", "jhuapl", "wd5", "APLCareers"),
-    ("Moog", "moog", "wd5", "moog_careers"),
-    ("Parker Hannifin", "parker", "wd5", "Parker_Careers"),
     ("Woodward", "woodward", "wd5", "Woodward"),
-    ("Howmet Aerospace", "howmet", "wd5", "Howmet"),
-    ("Triumph Group", "triumphgroup", "wd5", "Triumph_Careers"),
-    ("Curtiss-Wright", "curtisswright", "wd5", "CW_Careers"),
-    ("Gulfstream", "gulfstream", "wd1", "Gulfstream"),
-    ("Ducommun", "ducommun", "wd5", "Ducommun"),
-    ("ULA", "ula", "wd1", "ULA_External"),
+    # added after checking real job URLs:
+    ("GE Aerospace", "geaerospace", "wd5", "GE_ExternalSite"),
+    ("Sierra Space", "sierraspace", "wd1", "Sierra_Space_External_Career_Site"),
+    ("Sierra Nevada Corporation", "snc", "wd1", "SNC_External_Career_Site"),
+    ("The Aerospace Corporation", "aero", "wd5", "External"),
+    ("NASA JPL", "citjpl", "wd5", "Jobs"),
+]
+
+# SAP SuccessFactors career sites (verified layout): (label, base url)
+SUCCESSFACTORS = [
+    ("United Launch Alliance", "https://jobs.ulalaunch.com"),
 ]
 
 # Community-maintained Summer 2027 internship list (JSON, updated daily).
