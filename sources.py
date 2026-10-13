@@ -91,12 +91,20 @@ def _slug_candidates(name):
     return res
 
 
-def _probe(ats, slug):
-    """Return True if this ATS has a live board for slug."""
+def _same_company(searched, found):
+    a, b = re.sub(r"[^a-z0-9]", "", (searched or "").lower()), re.sub(r"[^a-z0-9]", "", (found or "").lower())
+    return bool(a and b) and (a[:5] == b[:5] or a in b or b in a)
+
+
+def _probe(ats, slug, name=""):
+    """Return True if this ATS has a live board for slug that plausibly belongs to `name`."""
     try:
         if ats == "greenhouse":
             r = _get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs", timeout=12)
-            return r.status_code == 200 and "jobs" in r.json()
+            if not (r.status_code == 200 and "jobs" in r.json()):
+                return False
+            info = _get(f"https://boards-api.greenhouse.io/v1/boards/{slug}", timeout=12)
+            return info.status_code != 200 or _same_company(name, info.json().get("name"))
         if ats == "lever":
             r = _get(f"https://api.lever.co/v0/postings/{slug}?mode=json&limit=1", timeout=12)
             return r.status_code == 200 and isinstance(r.json(), list)
@@ -105,10 +113,13 @@ def _probe(ats, slug):
             return r.status_code == 200 and "jobs" in r.json()
         if ats == "workable":
             r = _get(f"https://apply.workable.com/api/v1/widget/accounts/{slug}", timeout=12)
-            return r.status_code == 200 and "jobs" in r.json()
+            return r.status_code == 200 and "jobs" in r.json() and (not r.json().get("name") or _same_company(name, r.json()["name"]))
         if ats == "smartrecruiters":
             r = _get(f"https://api.smartrecruiters.com/v1/companies/{slug}/postings?limit=1", timeout=12)
-            return r.status_code == 200 and r.json().get("totalFound", 0) > 0
+            if not (r.status_code == 200 and r.json().get("totalFound", 0) > 0):
+                return False
+            cn = ((r.json().get("content") or [{}])[0].get("company") or {}).get("name")
+            return not cn or _same_company(name, cn)
     except Exception:
         return False
     return False
@@ -123,17 +134,17 @@ def discover_boards(names, cache, max_age_days=14):
             for ats in ("greenhouse", "lever", "ashby", "workable", "smartrecruiters"):
                 key = f"{ats}:{slug}"
                 c = cache.get(key)
-                if c and (c["ok"] or dt.date.fromisoformat(c["checked"]) + dt.timedelta(days=max_age_days) > today):
+                if c and c.get("v") == 2 and (c["ok"] or dt.date.fromisoformat(c["checked"]) + dt.timedelta(days=max_age_days) > today):
                     continue
                 todo.append((key, ats, slug, name))
 
     def run(t):
         key, ats, slug, name = t
-        return key, ats, slug, name, _probe(ats, slug)
+        return key, ats, slug, name, _probe(ats, slug, name)
 
     with ThreadPoolExecutor(16) as ex:
         for key, ats, slug, name, ok in ex.map(run, todo):
-            cache[key] = {"ok": ok, "ats": ats, "slug": slug, "name": name, "checked": today.isoformat()}
+            cache[key] = {"v": 2, "ok": ok, "ats": ats, "slug": slug, "name": name, "checked": today.isoformat()}
     return [v for v in cache.values() if v["ok"]]
 
 
@@ -221,30 +232,65 @@ ATS_FETCH = {"greenhouse": fetch_greenhouse, "lever": fetch_lever, "ashby": fetc
              "workable": fetch_workable, "smartrecruiters": fetch_smartrecruiters}
 
 
+RESOLVED = {}  # tenant -> note, shown in source health
+
+
+def _wd_post(base, tenant, site, term, offset):
+    r = S.post(f"{base}/wday/cxs/{tenant}/{site}/jobs",
+               json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": term},
+               timeout=TIMEOUT, headers={"Content-Type": "application/json", "Accept": "application/json"})
+    r.raise_for_status()
+    return r.json().get("jobPostings", [])
+
+
+def _wd_resolve(tenant, wd):
+    """Our guessed site name was wrong: open the tenant's public page and read the real one from the redirect."""
+    for w in dict.fromkeys([wd, "wd1", "wd5", "wd3", "wd501", "wd12"]):
+        base = f"https://{tenant}.{w}.myworkdayjobs.com"
+        try:
+            r = _get(base + "/", allow_redirects=True, timeout=15)
+        except Exception:
+            continue
+        if r.status_code >= 400 or "myworkdayjobs.com" not in r.url:
+            continue
+        segs = [x for x in re.sub(r"^https?://[^/]+", "", r.url.split("?")[0]).split("/") if x]
+        segs = [x for x in segs if not re.fullmatch(r"[a-z]{2}-[A-Za-z]{2}", x)]
+        if segs:
+            return w, segs[0]
+    return None
+
+
 def fetch_workday(w):
     label, tenant, wd, site = w
-    base = f"https://{tenant}.{wd}.myworkdayjobs.com"
-    api = f"{base}/wday/cxs/{tenant}/{site}/jobs"
     out, seen = [], set()
-    for term in ("intern", "co-op"):
-        for offset in range(0, 200, 20):
-            r = S.post(api, json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": term},
-                       timeout=TIMEOUT, headers={"Content-Type": "application/json"})
-            r.raise_for_status()
-            posts = r.json().get("jobPostings", [])
-            if not posts:
-                break
-            for p in posts:
-                path = p.get("externalPath")
-                if not path or path in seen or not _is_internish(p.get("title")):
-                    continue
-                seen.add(path)
-                out.append(dict(title=p["title"], company=label, location=p.get("locationsText", ""),
-                                url=f"{base}/en-US/{site}{path}", posted="", desc=p.get("postedOn", ""),
-                                src=f"workday:{tenant}"))
-            if len(posts) < 20:
-                break
-    return out
+    tried_resolve = False
+    while True:
+        base = f"https://{tenant}.{wd}.myworkdayjobs.com"
+        try:
+            for term in ("intern", "co-op"):
+                for offset in range(0, 200, 20):
+                    posts = _wd_post(base, tenant, site, term, offset)
+                    for p in posts:
+                        path = p.get("externalPath")
+                        if not path or path in seen or not _is_internish(p.get("title")):
+                            continue
+                        seen.add(path)
+                        out.append(dict(title=p["title"], company=label, location=p.get("locationsText", ""),
+                                        url=f"{base}/en-US/{site}{path}", posted="", desc=p.get("postedOn", ""),
+                                        src=f"workday:{tenant}"))
+                    if len(posts) < 20:
+                        break
+            return out
+        except requests.HTTPError as e:
+            if tried_resolve or e.response is None or e.response.status_code not in (400, 401, 404, 422):
+                raise
+            tried_resolve = True
+            res = _wd_resolve(tenant, wd)
+            if not res or res == (wd, site):
+                raise
+            wd, site = res
+            RESOLVED[tenant] = f"auto-corrected to {wd}/{site}"
+            out, seen = [], set()
 
 
 def parse_linkedin(html):
@@ -266,16 +312,24 @@ def parse_linkedin(html):
 
 
 def linkedin(health):
+    import random
     out, fails = [], 0
     secs = config.LINKEDIN_HOURS * 3600
-    for q in config.LINKEDIN_QUERIES:
-        for start in (0, 25, 50):
+    qs = config.LINKEDIN_QUERIES
+    n = min(len(qs), 5)  # a different slice of queries each day keeps request volume low
+    day = dt.date.today().toordinal()
+    todays = [qs[(day * n + i) % len(qs)] for i in range(n)]
+    for q in todays:
+        for start in (0, 25):
             url = ("https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
                    f"?keywords={requests.utils.quote(q)}&location=United%20States&f_E=1&f_TPR=r{secs}&start={start}")
             try:
                 r = _get(url)
                 if r.status_code == 429:
-                    health["linkedin"] = "rate-limited (partial)"
+                    time.sleep(45)
+                    r = _get(url)
+                if r.status_code == 429:
+                    health["linkedin"] = f"rate-limited (partial, {len(out)} raw)"
                     return out, set()
                 r.raise_for_status()
                 rows = parse_linkedin(r.text)
@@ -285,7 +339,8 @@ def linkedin(health):
             except Exception:
                 fails += 1
                 break
-            time.sleep(1.5)
+            time.sleep(random.uniform(4, 8))
+        time.sleep(random.uniform(4, 8))
     health["linkedin"] = f"ok ({len(out)} raw, {fails} query failures)" if out else f"no results ({fails} failures)"
     return out, set()
 
@@ -396,4 +451,6 @@ def fetch_all(boards_cache, company_names, health):
             jobs += j
             ok_labels.add(label)
     health["ats_failed"] = "; ".join(bad) if bad else "none"
+    if RESOLVED:
+        health["workday_auto_corrected"] = "; ".join(f"{k}: {v}" for k, v in RESOLVED.items())
     return jobs, ok_labels
