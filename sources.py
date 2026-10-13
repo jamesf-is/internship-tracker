@@ -167,7 +167,7 @@ def discover_boards(names, cache, max_age_days=14):
 
 
 def fetch_greenhouse(b):
-    r = _get(f"https://boards-api.greenhouse.io/v1/boards/{b['slug']}/jobs")
+    r = _get(f"https://boards-api.greenhouse.io/v1/boards/{b['slug']}/jobs", timeout=75)
     r.raise_for_status()
     out = []
     for j in r.json().get("jobs", []):
@@ -485,23 +485,25 @@ def fetch_all(boards_cache, company_names, health):
     boards = discover_boards(company_names, boards_cache)
     health["ats_boards_found"] = f"{len(boards)} boards"
 
+    def with_retry(label, fn):
+        err = None
+        for attempt in (1, 2):
+            try:
+                return label, fn(), None
+            except Exception as e:  # timeouts and hiccups: wait, then try once more
+                err = str(e)[:80]
+                if attempt == 1:
+                    time.sleep(6)
+        return label, [], err
+
     def run_board(b):
-        try:
-            return b["ats"] + ":" + b["slug"], ATS_FETCH[b["ats"]](b), None
-        except Exception as e:
-            return b["ats"] + ":" + b["slug"], [], str(e)[:80]
+        return with_retry(b["ats"] + ":" + b["slug"], lambda: ATS_FETCH[b["ats"]](b))
 
     def run_wd(w):
-        try:
-            return "workday:" + w[1], fetch_workday(w), None
-        except Exception as e:
-            return "workday:" + w[1], [], str(e)[:80]
+        return with_retry("workday:" + w[1], lambda: fetch_workday(w))
 
     def run_sf(w):
-        try:
-            return "sf:" + w[0], fetch_successfactors(w), None
-        except Exception as e:
-            return "sf:" + w[0], [], str(e)[:80]
+        return with_retry("sf:" + w[0], lambda: fetch_successfactors(w))
 
     bad = []
     fast = [b for b in boards if b["ats"] != "workable"]
