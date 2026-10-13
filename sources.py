@@ -93,7 +93,19 @@ def _slug_candidates(name):
 
 def _same_company(searched, found):
     a, b = re.sub(r"[^a-z0-9]", "", (searched or "").lower()), re.sub(r"[^a-z0-9]", "", (found or "").lower())
-    return bool(a and b) and (a[:5] == b[:5] or a in b or b in a)
+    if not a or not b:
+        return False
+    if a[:6] == b[:6] and min(len(a), len(b)) >= 4:
+        return True
+    return (len(b) >= 6 and b in a) or (len(a) >= 6 and a in b)
+
+
+def _first_word(name):
+    words = _slug_candidates(name)
+    n = re.sub(r"[^a-z0-9 ]", " ", re.sub(r"\(.*?\)", "", name.lower())).split()
+    n = [w for w in n if w not in {"inc", "corp", "corporation", "llc", "company", "co", "group", "the", "technologies",
+                                    "technology", "industries", "incorporated"}]
+    return n[0] if n else ""
 
 
 def _probe(ats, slug, name=""):
@@ -112,7 +124,9 @@ def _probe(ats, slug, name=""):
             r = _get(f"https://api.ashbyhq.com/posting-api/job-board/{slug}", timeout=12)
             return r.status_code == 200 and bool(r.json().get("jobs"))
         if ats == "workable":
-            r = _get(f"https://apply.workable.com/api/v1/widget/accounts/{slug}", timeout=12)
+            with WORKABLE_LOCK:
+                time.sleep(0.8)
+                r = _get(f"https://apply.workable.com/api/v1/widget/accounts/{slug}", timeout=12)
             return (r.status_code == 200 and "jobs" in r.json() and bool(r.json().get("name"))
                     and _same_company(name, r.json()["name"]))
         if ats == "smartrecruiters":
@@ -133,9 +147,12 @@ def discover_boards(names, cache, max_age_days=14):
     for name in names:
         for slug in _slug_candidates(name):
             for ats in ("greenhouse", "lever", "ashby", "workable", "smartrecruiters"):
+                if ats in ("lever", "ashby") and slug == _first_word(name) and len(_slug_candidates(name)) > 1 \
+                        and re.sub(r"[^a-z0-9]", "", name.lower()) != slug:
+                    continue  # cannot verify the owner of lever/ashby boards, so only trust full-name slugs
                 key = f"{ats}:{slug}"
                 c = cache.get(key)
-                if c and c.get("v") == 3 and (c["ok"] or dt.date.fromisoformat(c["checked"]) + dt.timedelta(days=max_age_days) > today):
+                if c and c.get("v") == 4 and (c["ok"] or dt.date.fromisoformat(c["checked"]) + dt.timedelta(days=max_age_days) > today):
                     continue
                 todo.append((key, ats, slug, name))
 
@@ -145,7 +162,7 @@ def discover_boards(names, cache, max_age_days=14):
 
     with ThreadPoolExecutor(16) as ex:
         for key, ats, slug, name, ok in ex.map(run, todo):
-            cache[key] = {"v": 3, "ok": ok, "ats": ats, "slug": slug, "name": name, "checked": today.isoformat()}
+            cache[key] = {"v": 4, "ok": ok, "ats": ats, "slug": slug, "name": name, "checked": today.isoformat()}
     return [v for v in cache.values() if v["ok"]]
 
 
@@ -237,6 +254,8 @@ ATS_FETCH = {"greenhouse": fetch_greenhouse, "lever": fetch_lever, "ashby": fetc
              "workable": fetch_workable, "smartrecruiters": fetch_smartrecruiters}
 
 
+import threading
+WORKABLE_LOCK = threading.Semaphore(1)
 RESOLVED = {}  # tenant -> note, shown in source health
 
 
@@ -485,9 +504,14 @@ def fetch_all(boards_cache, company_names, health):
             return "sf:" + w[0], [], str(e)[:80]
 
     bad = []
+    fast = [b for b in boards if b["ats"] != "workable"]
+    slow = [b for b in boards if b["ats"] == "workable"]
     with ThreadPoolExecutor(6) as ex:
-        results = (list(ex.map(run_board, boards)) + list(ex.map(run_wd, config.WORKDAY))
+        results = (list(ex.map(run_board, fast)) + list(ex.map(run_wd, config.WORKDAY))
                    + list(ex.map(run_sf, config.SUCCESSFACTORS)))
+    for b in slow:  # Workable rate-limits bursts, so go one at a time
+        results.append(run_board(b))
+        time.sleep(2)
     for label, j, err in results:
         if err:
             bad.append(f"{label} ({err})")
