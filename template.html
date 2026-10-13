@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aerospace Internships</title>
+<style>
+:root{--bg:#f7f8fa;--card:#fff;--ink:#14171f;--mute:#667085;--line:#e4e7ec;--accent:#0b5fff;--new:#067647;--newbg:#e7f6ee;--warn:#a15c00}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1218;--card:#171b24;--ink:#e8ebf2;--mute:#98a2b3;--line:#262c39;--accent:#6ea0ff;--new:#4ade80;--newbg:#12301f;--warn:#e0a84b}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:24px 16px 64px}
+h1{margin:0 0 2px;font-size:24px}
+.sub{color:var(--mute);margin:0 0 18px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+input[type=search]{flex:1 1 220px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit}
+button.chip{padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit;cursor:pointer}
+button.chip[aria-pressed=true]{border-color:var(--accent);color:var(--accent);font-weight:600}
+.job{display:flex;gap:12px;justify-content:space-between;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:8px}
+.job .t{font-weight:600}.job .c{color:var(--mute);font-size:13px}
+.tag{font-size:11px;border-radius:999px;padding:1px 8px;margin-left:6px;vertical-align:middle}
+.tag.new{background:var(--newbg);color:var(--new)}.tag.yr{color:var(--warn);border:1px solid var(--warn)}
+a.apply{flex:none;background:var(--accent);color:#fff;text-decoration:none;padding:8px 14px;border-radius:8px;font-weight:600}
+@media (prefers-color-scheme:dark){a.apply{color:#0b1020}}
+.empty{color:var(--mute);padding:30px 0;text-align:center}
+details{margin-top:26px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px}
+summary{cursor:pointer;font-weight:600}
+.links{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:10px;font-size:13px}
+.links a{color:var(--accent)}
+ul.h{font-size:13px;color:var(--mute);padding-left:18px}
+@media (max-width:560px){.job{flex-direction:column;align-items:stretch}a.apply{text-align:center}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Aerospace internships, Summer 2027</h1>
+  <p class="sub">Updated __UPDATED__ &middot; <span id="count"></span></p>
+  <div class="bar">
+    <input id="q" type="search" placeholder="Search company, title, location (e.g. structures, CO, Blue Origin)">
+    <button class="chip" id="fNew" aria-pressed="false">New (last 2 days)</button>
+    <button class="chip" id="fYear" aria-pressed="false">Summer 2027 stated</button>
+  </div>
+  <div id="list"></div>
+  <details><summary>Direct career pages (from your spreadsheet)</summary><div class="links">__CAREERS__</div></details>
+  <details><summary>Source health</summary><ul class="h">__HEALTH__</ul></details>
+</div>
+<script>
+const JOBS = __JOBS__;
+const $ = id => document.getElementById(id);
+const st = {q:"", n:false, y:false};
+const esc = s => String(s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function render(){
+  const q = st.q.toLowerCase();
+  const rows = JOBS.filter(j => (!st.n || j.new) && (!st.y || j.year_confirmed) &&
+    (!q || (j.company+" "+j.title+" "+j.location).toLowerCase().includes(q)));
+  $("count").textContent = rows.length + " of " + JOBS.length + " open postings";
+  $("list").innerHTML = rows.length ? rows.map(j => `
+    <div class="job"><div>
+      <div class="t">${esc(j.title)}${j.new?'<span class="tag new">NEW</span>':''}${j.year_confirmed?'':'<span class="tag yr">year not stated</span>'}</div>
+      <div class="c">${esc(j.company)} &middot; ${esc(j.location)||"Location not listed"} &middot; first seen ${esc(j.first_seen)}</div>
+    </div><a class="apply" href="${esc(j.url)}" target="_blank" rel="noopener">Apply</a></div>`).join("")
+    : '<div class="empty">No postings match.</div>';
+}
+$("q").addEventListener("input", e => {st.q = e.target.value; render();});
+for (const [id,k] of [["fNew","n"],["fYear","y"]]) $(id).addEventListener("click", e => {
+  st[k] = !st[k]; e.currentTarget.setAttribute("aria-pressed", st[k]); render();});
+render();
+</script>
+</body>
+</html>

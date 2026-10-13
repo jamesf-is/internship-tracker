@@ -1,0 +1,562 @@
+[
+ {
+  "company": "Aero Simulation Inc.",
+  "fit": "STRONG MATCH",
+  "location": "Tampa",
+  "scope": "Structural mechanics \u2014 flight simulator mechanical structures.",
+  "careers_url": "https://www.aerosimulation.com/careers"
+ },
+ {
+  "company": "Air Force Research Lab (AFRL)",
+  "fit": "STRONG MATCH",
+  "location": "Kirtland AFB, NM / Wright-Patterson, OH",
+  "scope": "Space vehicle structures \u2014 deployable trusses & composite airframes.",
+  "careers_url": "https://afrlscholars.usra.edu/"
+ },
+ {
+  "company": "Albany Engineered Composites",
+  "fit": "STRONG MATCH",
+  "location": "Rochester",
+  "scope": "Space structures \u2014 3D woven composite structural joints.",
+  "careers_url": "https://www.albint.com/careers"
+ },
+ {
+  "company": "Apex Space",
+  "fit": "STRONG MATCH",
+  "location": "Los Angeles",
+  "scope": "Satellite bus structures \u2014 productized bus structural assembly.",
+  "careers_url": "https://apexspace.com/careers"
+ },
+ {
+  "company": "Astrobotic Technology",
+  "fit": "STRONG MATCH",
+  "location": "Pittsburgh",
+  "scope": "Lander & rover structures \u2014 Peregrine/Griffin structural chassis.",
+  "careers_url": "https://www.astrobotic.com/careers/"
+ },
+ {
+  "company": "ATI (Allegheny Technologies)",
+  "fit": "STRONG MATCH",
+  "location": "Pittsburgh",
+  "scope": "High-temp structural materials \u2014 titanium alloy forging characterization.",
+  "careers_url": "https://www.atimetals.com/careers"
+ },
+ {
+  "company": "Battelle",
+  "fit": "STRONG MATCH",
+  "location": "Columbus",
+  "scope": "Defense structural systems \u2014 specialty enclosure design.",
+  "careers_url": "https://careers.battelle.org"
+ },
+ {
+  "company": "Belcan Aerospace",
+  "fit": "STRONG MATCH",
+  "location": "Windsor",
+  "scope": "Structural engineering consulting \u2014 FEA for primary OEM airframes.",
+  "careers_url": "https://www.belcan.com/careers/"
+ },
+ {
+  "company": "BWX Technologies",
+  "fit": "STRONG MATCH",
+  "location": "Lynchburg",
+  "scope": "Advanced space nuclear thermal propulsion structures.",
+  "careers_url": "https://www.bwxt.com/careers"
+ },
+ {
+  "company": "CACI International",
+  "fit": "STRONG MATCH",
+  "location": "Reston",
+  "scope": "Space & structural systems \u2014 payload hardware integration.",
+  "careers_url": "https://careers.caci.com"
+ },
+ {
+  "company": "CesiumAstro",
+  "fit": "STRONG MATCH",
+  "location": "Austin",
+  "scope": "Spacecraft mechanical/structural \u2014 phased array structural enclosures.",
+  "careers_url": "https://www.cesiumastro.com/careers"
+ },
+ {
+  "company": "Curtiss-Wright Integrated Systems",
+  "fit": "STRONG MATCH",
+  "location": "East Farmingdale",
+  "scope": "Rugged flight data recorders, air data computers, crash-survivable storage.",
+  "careers_url": "https://cw.jobs"
+ },
+ {
+  "company": "Draper Laboratory",
+  "fit": "STRONG MATCH",
+  "location": "Cambridge",
+  "scope": "Guidance, navigation & control (GN&C) systems for space & defense. Also: structural shock mounts, satellite deployment mechanisms.",
+  "careers_url": "https://www.draper.com/careers"
+ },
+ {
+  "company": "Ducommun Incorporated",
+  "fit": "STRONG MATCH",
+  "location": "Coxsackie",
+  "scope": "Aerostructures \u2014 titanium stretch-forming & radome structural layup.",
+  "careers_url": "https://www.ducommun.com/careers"
+ },
+ {
+  "company": "GKN Aerospace",
+  "fit": "STRONG MATCH",
+  "location": "Tallassee",
+  "scope": "Composite structures \u2014 automated fiber placement processing.",
+  "careers_url": "https://www.gknaerospace.com/careers"
+ },
+ {
+  "company": "Howmet Aerospace",
+  "fit": "STRONG MATCH",
+  "location": "Kingston",
+  "scope": "Structural castings & components \u2014 superalloy investment casting.",
+  "careers_url": "https://careers.howmet.com"
+ },
+ {
+  "company": "Intuitive Machines",
+  "fit": "STRONG MATCH",
+  "location": "Houston",
+  "scope": "Lunar lander structural engineering \u2014 Nova-C lander structures.",
+  "careers_url": "https://www.intuitivemachines.com/careers"
+ },
+ {
+  "company": "iRocket",
+  "fit": "STRONG MATCH",
+  "location": "Long Island (HQ)",
+  "scope": "Reusable small-sat launch vehicles; fast-turnaround methane/LOX engines.",
+  "careers_url": "https://apply.workable.com/innovative-rocket-technologies-inc/"
+ },
+ {
+  "company": "Johns Hopkins Applied Physics Lab (APL)",
+  "fit": "STRONG MATCH",
+  "location": "Laurel",
+  "scope": "Space structural dynamics \u2014 interplanetary spacecraft structural layout.",
+  "careers_url": "https://www.jhuapl.edu/careers/internships"
+ },
+ {
+  "company": "Kaman Aerospace",
+  "fit": "STRONG MATCH",
+  "location": "Bloomfield",
+  "scope": "K-MAX heavy-lift helicopters & composite rotor assemblies.",
+  "careers_url": "https://www.parker.com/us/en/careers.html"
+ },
+ {
+  "company": "Kratos Defense",
+  "fit": "STRONG MATCH",
+  "location": "Dahlgren",
+  "scope": "Rocket support structures \u2014 sounding rocket payload design.",
+  "careers_url": "https://kratosdefense.com/careers"
+ },
+ {
+  "company": "Lawrence Livermore National Lab",
+  "fit": "STRONG MATCH",
+  "location": "Livermore",
+  "scope": "Mechanical structural engineering \u2014 additive manufacturing structural optimization.",
+  "careers_url": "https://careers.llnl.gov"
+ },
+ {
+  "company": "Magellan Aerospace",
+  "fit": "STRONG MATCH",
+  "location": "West Babylon (Long Island)",
+  "scope": "Precision machining & treatment of military/commercial structural components.",
+  "careers_url": "https://www.magellan.aero/careers"
+ },
+ {
+  "company": "MIT Lincoln Laboratory",
+  "fit": "STRONG MATCH",
+  "location": "Lexington",
+  "scope": "Space systems & mechanical structural design \u2014 optical bench structures.",
+  "careers_url": "https://careers.ll.mit.edu"
+ },
+ {
+  "company": "MITRE Corporation",
+  "fit": "STRONG MATCH",
+  "location": "McLean",
+  "scope": "Mechanical & structural systems \u2014 satellite ground hardware.",
+  "careers_url": "https://careers.mitre.org/us/en/co-ops-interns"
+ },
+ {
+  "company": "Moog Inc.",
+  "fit": "STRONG MATCH",
+  "location": "East Aurora (Buffalo)",
+  "scope": "Flight control actuators & launch vehicle steering systems. Also: rocket engine valve bodies, pressurized vessel mechanics.",
+  "careers_url": "https://careers.moog.com/moreinfo/student-and-early-careers"
+ },
+ {
+  "company": "National Institute of Aerospace (NIA)",
+  "fit": "STRONG MATCH",
+  "location": "Hampton",
+  "scope": "Composite structures research \u2014 NASA Langley-partnered research.",
+  "careers_url": "https://www.nianet.org/careers"
+ },
+ {
+  "company": "Naval Research Laboratory (NRL)",
+  "fit": "STRONG MATCH",
+  "location": "Washington",
+  "scope": "Spacecraft structures \u2014 composite sandwich panel analysis.",
+  "careers_url": "https://www.nrl.navy.mil/Careers/"
+ },
+ {
+  "company": "North Atlantic Industries (NAI)",
+  "fit": "STRONG MATCH",
+  "location": "Bohemia (Long Island)",
+  "scope": "Embedded computing, I/O boards, rugged power electronics for defense flight control.",
+  "careers_url": "https://www.naii.com/careers"
+ },
+ {
+  "company": "NTS (National Technical Systems)",
+  "fit": "STRONG MATCH",
+  "location": "Boxborough",
+  "scope": "Space hardware structural testing \u2014 shaker table & pyroshock testing.",
+  "careers_url": "https://www.nts.com/careers"
+ },
+ {
+  "company": "Oak Ridge National Laboratory",
+  "fit": "STRONG MATCH",
+  "location": "Oak Ridge",
+  "scope": "Advanced structural manufacturing \u2014 carbon fiber composite characterization.",
+  "careers_url": "https://jobs.ornl.gov"
+ },
+ {
+  "company": "Parker Hannifin",
+  "fit": "STRONG MATCH",
+  "location": "Hauppauge",
+  "scope": "Aerospace structural seals/systems \u2014 high-pressure fluid housings.",
+  "careers_url": "https://www.parker.com/us/en/careers.html"
+ },
+ {
+  "company": "Parsons Corporation",
+  "fit": "STRONG MATCH",
+  "location": "Centreville",
+  "scope": "Space structures \u2014 satellite ground station & launch support hardware.",
+  "careers_url": "https://www.parsons.com/careers/"
+ },
+ {
+  "company": "Peraton",
+  "fit": "STRONG MATCH",
+  "location": "Herndon",
+  "scope": "Space systems hardware engineering \u2014 satellite mechanical mounting.",
+  "careers_url": "https://www.careers.peraton.com"
+ },
+ {
+  "company": "Quest Defense",
+  "fit": "STRONG MATCH",
+  "location": "East Hartford",
+  "scope": "Mechanical structural analysis \u2014 jet engine component validation.",
+  "careers_url": "https://www.questdefense.com/"
+ },
+ {
+  "company": "Relativity Space",
+  "fit": "STRONG MATCH",
+  "location": "Long Beach",
+  "scope": "3D-printed rockets (Terran R) \u2014 propulsion & structures.",
+  "careers_url": "https://www.relativityspace.com/careers"
+ },
+ {
+  "company": "Sandia National Laboratories",
+  "fit": "STRONG MATCH",
+  "location": "Albuquerque",
+  "scope": "Structural dynamics engineering \u2014 shock & modal response testing.",
+  "careers_url": "https://www.sandia.gov/careers/students-and-postdocs/internships/"
+ },
+ {
+  "company": "Southwest Research Institute (SwRI)",
+  "fit": "STRONG MATCH",
+  "location": "San Antonio",
+  "scope": "Space structural engineering \u2014 spacecraft enclosure & impact mechanics.",
+  "careers_url": "https://www.swri.org/careers"
+ },
+ {
+  "company": "Telephonics Corporation",
+  "fit": "STRONG MATCH",
+  "location": "Farmingdale (Long Island)",
+  "scope": "Maritime search radar, surveillance arrays, airborne comm controllers. Mechanical Packaging track: structural mounting brackets, shock isolation.",
+  "careers_url": "https://www.telephonics.com/careers"
+ },
+ {
+  "company": "Terran Orbital",
+  "fit": "STRONG MATCH",
+  "location": "Boca Raton",
+  "scope": "Satellite structural engineering \u2014 CubeSat/SmallSat frame design.",
+  "careers_url": "https://www.terranorbital.com/careers"
+ },
+ {
+  "company": "Textron Systems",
+  "fit": "STRONG MATCH",
+  "location": "Hunt Valley",
+  "scope": "Mechanical/structural \u2014 unmanned aircraft airframe design.",
+  "careers_url": "https://careers.textron.com/interns/"
+ },
+ {
+  "company": "TransDigm Group / Mason Controls",
+  "fit": "STRONG MATCH",
+  "location": "East Coast Ops",
+  "scope": "Aerospace mechanical systems \u2014 cockpit control linkages.",
+  "careers_url": "https://careers.transdigm.com"
+ },
+ {
+  "company": "Triumph Group",
+  "fit": "STRONG MATCH",
+  "location": "Clemmons",
+  "scope": "Aerospace structures \u2014 landing gear structural actuation systems.",
+  "careers_url": "https://www.triumphgroup.com/careers"
+ },
+ {
+  "company": "Varda Space Industries",
+  "fit": "STRONG MATCH",
+  "location": "El Segundo",
+  "scope": "Spacecraft structures & reentry systems \u2014 heat shield & capsule structure.",
+  "careers_url": "https://www.varda.com/careers"
+ },
+ {
+  "company": "VPT Components",
+  "fit": "STRONG MATCH",
+  "location": "Lawrence",
+  "scope": "Aerospace packaging engineering \u2014 hermetic packaging stress analysis.",
+  "careers_url": "https://www.vptpower.com/careers"
+ },
+ {
+  "company": "Woodward, Inc.",
+  "fit": "STRONG MATCH",
+  "location": "Niles",
+  "scope": "Mechanical systems \u2014 thrust vector actuation & fuel metering valves.",
+  "careers_url": "https://www.woodward.com/careers"
+ },
+ {
+  "company": "York Space Systems",
+  "fit": "STRONG MATCH",
+  "location": "Denver",
+  "scope": "Structures & thermal analysis \u2014 satellite structural panels.",
+  "careers_url": "https://www.yorkspacesystems.com/careers"
+ },
+ {
+  "company": "Aerojet Rocketdyne (L3Harris)",
+  "fit": "TARGET",
+  "location": "Culpeper",
+  "scope": "Composite solid rocket motor hulls & defense propulsion systems.",
+  "careers_url": "https://careers.l3harris.com"
+ },
+ {
+  "company": "BAE Systems Inc.",
+  "fit": "TARGET",
+  "location": "Wayne",
+  "scope": "Comm transceivers, data links, military navigation systems.",
+  "careers_url": "https://jobs.baesystems.com/global/en/studentsandgraduates"
+ },
+ {
+  "company": "Bell Textron",
+  "fit": "TARGET",
+  "location": "Fort Worth",
+  "scope": "Military & commercial helicopters; V-280 Valor tiltrotor development.",
+  "careers_url": "https://careers.textron.com/interns/"
+ },
+ {
+  "company": "Boeing",
+  "fit": "TARGET",
+  "location": "Ridley Park",
+  "scope": "Military rotorcraft (CH-47 Chinook, V-22 Osprey). Mechanical/Structural track: stress analysis, fatigue/damage tolerance, composite design.",
+  "careers_url": "https://jobs.boeing.com/internships"
+ },
+ {
+  "company": "Collins Aerospace",
+  "fit": "TARGET",
+  "location": "Windsor Locks",
+  "scope": "Environmental control systems & spacesuit subassemblies. Aircraft Structural Systems track: spacesuit mechanical structure, ECS ducting.",
+  "careers_url": "https://careers.rtx.com/global/en/campus"
+ },
+ {
+  "company": "Firefly Aerospace",
+  "fit": "TARGET",
+  "location": "Cedar Park",
+  "scope": "Alpha launch vehicle & Blue Ghost lunar lander design HQ. Structures track: carbon fiber composite tank manufacturing, interstage mechanics.",
+  "careers_url": "https://fireflyspace.com/careers/"
+ },
+ {
+  "company": "GE Aerospace",
+  "fit": "TARGET",
+  "location": "Bohemia (Long Island)",
+  "scope": "Digital military/commercial cockpit power management electronics.",
+  "careers_url": "https://careers.geaerospace.com/global/en/us-internships"
+ },
+ {
+  "company": "General Atomics Aeronautical Systems",
+  "fit": "TARGET",
+  "location": "Poway",
+  "scope": "Unmanned aircraft systems (MQ-9 Reaper) design & production.",
+  "careers_url": "https://www.ga-asi.com/careers"
+ },
+ {
+  "company": "General Dynamics Mission Systems",
+  "fit": "TARGET",
+  "location": "Fairfax",
+  "scope": "Structural engineering \u2014 enclosure stress analysis & shock/vibration isolation design.",
+  "careers_url": "https://www.gd.com/careers/Interns"
+ },
+ {
+  "company": "Gulfstream Aerospace",
+  "fit": "TARGET",
+  "location": "Savannah",
+  "scope": "Business jet design, structures & flight test engineering.",
+  "careers_url": "https://careers.gulfstream.com/content/Student-Programs/"
+ },
+ {
+  "company": "Honeywell Aerospace",
+  "fit": "TARGET",
+  "location": "Phoenix / Tempe / Redmond",
+  "scope": "Avionics, flight controls & auxiliary power units for commercial/defense aircraft.",
+  "careers_url": "https://www.honeywell.com/us/en/careers/your-career-journey/early-career"
+ },
+ {
+  "company": "L3Harris Technologies",
+  "fit": "TARGET",
+  "location": "Clifton",
+  "scope": "Airborne EW systems, RF jamming pods, defensive countermeasures.",
+  "careers_url": "https://careers.l3harris.com"
+ },
+ {
+  "company": "Leidos",
+  "fit": "TARGET",
+  "location": "Reston",
+  "scope": "Space systems mechanical \u2014 satellite payload structural design.",
+  "careers_url": "https://www.leidos.com/careers"
+ },
+ {
+  "company": "Lockheed Martin",
+  "fit": "TARGET",
+  "location": "Owego",
+  "scope": "Naval helicopter (MH-60 Seahawk) systems integration & mission electronics.",
+  "careers_url": "https://www.lockheedmartin.com/en-us/careers/candidates/students-early-careers/internships/engineering-internships.html"
+ },
+ {
+  "company": "Millennium Space Systems (Boeing)",
+  "fit": "TARGET",
+  "location": "El Segundo",
+  "scope": "SmallSat structural layout & coupled loads analysis.",
+  "careers_url": "https://www.millennium-space.com/careers"
+ },
+ {
+  "company": "Northrop Grumman",
+  "fit": "TARGET",
+  "location": "Bethpage (Long Island)",
+  "scope": "Tactical aircraft sustainment & combat control networks.",
+  "careers_url": "https://www.northropgrumman.com/careers/students-and-entry-level-careers-start-a-career-of-purpose"
+ },
+ {
+  "company": "Pratt & Whitney",
+  "fit": "TARGET",
+  "location": "East Hartford",
+  "scope": "Commercial/military propulsion engine R&D and design core. Structural Mechanics track: turbine rotor stress, high-temp creep modeling, vibration modal testing.",
+  "careers_url": "https://careers.rtx.com/global/en/campus"
+ },
+ {
+  "company": "Raytheon (RTX)",
+  "fit": "TARGET",
+  "location": "Marlborough",
+  "scope": "Satellite comm terminals & military radar control nodes.",
+  "careers_url": "https://careers.rtx.com/global/en/campus"
+ },
+ {
+  "company": "Rocket Lab",
+  "fit": "TARGET",
+  "location": "Wallops Island",
+  "scope": "Launch Complex 2 \u2014 Electron & upcoming Neutron rocket production. Structures & Mechanisms track: interstage release mechanisms.",
+  "careers_url": "https://rocketlabcorp.com/careers/"
+ },
+ {
+  "company": "SAFRAN Aerospace",
+  "fit": "TARGET",
+  "location": "Pitman",
+  "scope": "Structural components \u2014 engine nacelle & composite fan blade mechanics.",
+  "careers_url": "https://www.safran-group.com/careers"
+ },
+ {
+  "company": "Sierra Space",
+  "fit": "TARGET",
+  "location": "Durham",
+  "scope": "Rocket mechanisms, satellite steering gears, solar array drives. Space Structures & Mechanisms track: inflatable habitat fabrics, metallic restraint rings.",
+  "careers_url": "https://www.sierraspace.com/careers"
+ },
+ {
+  "company": "Spirit AeroSystems",
+  "fit": "TARGET",
+  "location": "Wichita",
+  "scope": "Commercial aerostructures \u2014 fuselages & wings (Boeing 737/787 supplier).",
+  "careers_url": "https://jobs.boeing.com/internships"
+ },
+ {
+  "company": "Textron Aviation",
+  "fit": "TARGET",
+  "location": "Wichita",
+  "scope": "Cessna & Beechcraft business/general aviation aircraft design & manufacturing.",
+  "careers_url": "https://careers.textron.com/interns/"
+ },
+ {
+  "company": "The Aerospace Corporation",
+  "fit": "TARGET",
+  "location": "Columbia",
+  "scope": "Cybersecurity & mission risk assurance for national security space assets.",
+  "careers_url": "https://aerospace.org/students-and-recent-graduates"
+ },
+ {
+  "company": "United Launch Alliance (ULA)",
+  "fit": "TARGET",
+  "location": "Washington",
+  "scope": "Gov business development & national security launch integration.",
+  "careers_url": "https://careers.ulalaunch.com"
+ },
+ {
+  "company": "Virgin Galactic",
+  "fit": "TARGET",
+  "location": "Tustin",
+  "scope": "Delta-class suborbital spaceship design & manufacturing.",
+  "careers_url": "https://www.virgingalactic.com/careers"
+ },
+ {
+  "company": "Anduril Industries",
+  "fit": "REACH",
+  "location": "Costa Mesa",
+  "scope": "Autonomous defense systems \u2014 drones, counter-UAS, sensor fusion.",
+  "careers_url": "https://www.anduril.com/careers"
+ },
+ {
+  "company": "Archer Aviation",
+  "fit": "REACH",
+  "location": "San Jose",
+  "scope": "eVTOL aircraft (Midnight) engineering \u2014 no ITAR, open to non-U.S. citizens.",
+  "careers_url": "https://archer.com/careers"
+ },
+ {
+  "company": "Blue Origin",
+  "fit": "REACH",
+  "location": "Washington",
+  "scope": "Regulatory compliance & government mission coordination.",
+  "careers_url": "https://www.blueorigin.com/careers"
+ },
+ {
+  "company": "Jet Propulsion Laboratory (JPL)",
+  "fit": "REACH",
+  "location": "Pasadena",
+  "scope": "Spacecraft structures & mechanisms \u2014 planetary rover structural chassis.",
+  "careers_url": "https://www.jpl.jobs"
+ },
+ {
+  "company": "Joby Aviation",
+  "fit": "REACH",
+  "location": "Marina / San Carlos / Santa Cruz",
+  "scope": "eVTOL air taxi design \u2014 electric propulsion, flight controls, structures.",
+  "careers_url": "https://www.jobyaviation.com/careers/"
+ },
+ {
+  "company": "NASA (Multiple Centers)",
+  "fit": "REACH",
+  "location": "Goddard, Langley, Johnson, Kennedy, Ames, Marshall, Glenn, Wallops +",
+  "scope": "Spacecraft/launch vehicle structures, propulsion research & mission ops across 10 NASA field centers.",
+  "careers_url": "https://stemgateway.nasa.gov"
+ },
+ {
+  "company": "SpaceX",
+  "fit": "REACH",
+  "location": "Washington",
+  "scope": "Gov comms, spectrum filing, launch integration management.",
+  "careers_url": "https://www.spacex.com/careers/"
+ }
+]
