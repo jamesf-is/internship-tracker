@@ -3543,6 +3543,21 @@
    "last_seen": "2026-10-16",
    "emailed": true,
    "closed": false
+  },
+  "496750396962820f": {
+   "title": "Engineering Projects Intern",
+   "company": "Leidos",
+   "location": "6314 Remote/Teleworker US",
+   "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/6314-RemoteTeleworker-US/Engineering-Projects-Intern_R-00194672",
+   "src": "workday:leidos",
+   "prio": 0,
+   "posted": "",
+   "year_confirmed": false,
+   "desc": "Posted Today",
+   "first_seen": "2026-10-16",
+   "last_seen": "2026-10-16",
+   "emailed": false,
+   "closed": false
   }
  },
  "boards": {
@@ -17308,7 +17323,7 @@
   }
  },
  "last_email_date": "2026-10-16",
- "runs": 13,
+ "runs": 14,
  "emailed_urls": [
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/XMLNAME-2027-Space-Systems-Architecture-Undergrad-Intern_R016772",
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/El-Segundo-CA/XMLNAME-2027-Power-Systems-Engineering-Undergraduate-Intern_R016530",
