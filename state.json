@@ -4020,7 +4020,7 @@
    "year_confirmed": false,
    "desc": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "emailed": true,
    "closed": false
   },
@@ -4307,6 +4307,36 @@
    "first_seen": "2026-10-20",
    "last_seen": "2026-10-20",
    "emailed": true,
+   "closed": false
+  },
+  "b5cd57d3363f1c8e": {
+   "title": "2027 Engineering Intern (ME/EE) -  Wallops VA",
+   "company": "Northrop Grumman",
+   "location": "United States-Virginia-New Church",
+   "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Virginia-New-Church/XMLNAME-2027-Engineering-Intern--ME-EE-----Wallops-VA_R10256585",
+   "src": "workday:ngc",
+   "prio": 0,
+   "posted": "",
+   "year_confirmed": true,
+   "desc": "Posted Today",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "emailed": false,
+   "closed": false
+  },
+  "a0e9e13d8b4709e0": {
+   "title": "2027 Associate Pathways Aerospace Engineer / Pathways Aerospace Engineer - Linthicum MD",
+   "company": "Northrop Grumman",
+   "location": "United States-Maryland-Linthicum",
+   "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Associate-Pathways-Aerospace-Engineer---Pathways-Aerospace-Engineer---Linthicum-MD_R10256780",
+   "src": "workday:ngc",
+   "prio": 0,
+   "posted": "",
+   "year_confirmed": true,
+   "desc": "Posted Today",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "emailed": false,
    "closed": false
   }
  },
@@ -18073,7 +18103,7 @@
   }
  },
  "last_email_date": "2026-10-20",
- "runs": 21,
+ "runs": 22,
  "emailed_urls": [
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/XMLNAME-2027-Space-Systems-Architecture-Undergrad-Intern_R016772",
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/El-Segundo-CA/XMLNAME-2027-Electromechanical-Undergraduate-Intern_R016918",
