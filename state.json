@@ -4337,7 +4337,7 @@
    "first_seen": "2026-10-20",
    "last_seen": "2026-10-21",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "007b3b1c0f0ab47e": {
    "title": "Engineering Intern",
@@ -18283,7 +18283,7 @@
   }
  },
  "last_email_date": "2026-10-21",
- "runs": 23,
+ "runs": 24,
  "emailed_urls": [
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/XMLNAME-2027-Space-Systems-Architecture-Undergrad-Intern_R016772",
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/El-Segundo-CA/XMLNAME-2027-Electromechanical-Undergraduate-Intern_R016918",
