@@ -80,7 +80,7 @@
    "posted": "2026-09-14",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -108,7 +108,7 @@
    "posted": "2026-09-16",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -122,7 +122,7 @@
    "posted": "2026-09-16",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -136,7 +136,7 @@
    "posted": "2026-09-25",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -150,9 +150,9 @@
    "posted": "2026-10-01",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-24",
    "emailed": true,
-   "closed": true
+   "closed": false
   },
   "a950e19b2febcfa6": {
    "title": "Mission Operations Intern - Summer 2027",
@@ -164,9 +164,9 @@
    "posted": "2026-10-01",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-24",
    "emailed": true,
-   "closed": true
+   "closed": false
   },
   "e7a0622f85225962": {
    "title": "Systems Engineer Intern",
@@ -416,7 +416,7 @@
    "posted": "2026-09-30",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -556,7 +556,7 @@
    "posted": "2026-10-12",
    "year_confirmed": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -654,7 +654,7 @@
    "posted": "2026-10-12",
    "year_confirmed": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -696,7 +696,7 @@
    "posted": "2026-09-21",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -710,7 +710,7 @@
    "posted": "2026-09-30",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -724,7 +724,7 @@
    "posted": "2026-08-14",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -738,7 +738,7 @@
    "posted": "2026-09-22",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -752,7 +752,7 @@
    "posted": "2026-09-24",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -766,7 +766,7 @@
    "posted": "2026-09-18",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -780,7 +780,7 @@
    "posted": "2026-08-14",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -794,7 +794,7 @@
    "posted": "2026-09-23",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -808,7 +808,7 @@
    "posted": "2026-09-18",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -822,7 +822,7 @@
    "posted": "2026-09-22",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -850,7 +850,7 @@
    "posted": "2026-09-24",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -990,7 +990,7 @@
    "posted": "2026-10-02",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1004,7 +1004,7 @@
    "posted": "2026-09-29",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1018,7 +1018,7 @@
    "posted": "2026-10-02",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1032,7 +1032,7 @@
    "posted": "2026-09-29",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1046,7 +1046,7 @@
    "posted": "2026-09-30",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1060,7 +1060,7 @@
    "posted": "2026-09-30",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1102,7 +1102,7 @@
    "posted": "2026-09-09",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1116,7 +1116,7 @@
    "posted": "2026-09-09",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1130,7 +1130,7 @@
    "posted": "2026-09-09",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1144,7 +1144,7 @@
    "posted": "2026-09-09",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1158,7 +1158,7 @@
    "posted": "2026-08-02",
    "year_confirmed": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1172,7 +1172,7 @@
    "posted": "2026-09-09",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1186,7 +1186,7 @@
    "posted": "2026-09-09",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1200,7 +1200,7 @@
    "posted": "2026-09-16",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1214,7 +1214,7 @@
    "posted": "2026-09-17",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1228,7 +1228,7 @@
    "posted": "2026-09-16",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1242,7 +1242,7 @@
    "posted": "2026-09-13",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1256,7 +1256,7 @@
    "posted": "2026-09-16",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1270,7 +1270,7 @@
    "posted": "2026-09-11",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1284,7 +1284,7 @@
    "posted": "2026-08-03",
    "year_confirmed": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1298,7 +1298,7 @@
    "posted": "2026-09-10",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1340,7 +1340,7 @@
    "posted": "2026-09-17",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1368,7 +1368,7 @@
    "posted": "2026-08-02",
    "year_confirmed": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1382,7 +1382,7 @@
    "posted": "2026-09-09",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1396,7 +1396,7 @@
    "posted": "2026-09-17",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1410,7 +1410,7 @@
    "posted": "2026-09-17",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1424,7 +1424,7 @@
    "posted": "2026-09-17",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1438,7 +1438,7 @@
    "posted": "2026-09-10",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1452,7 +1452,7 @@
    "posted": "2026-09-24",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1466,7 +1466,7 @@
    "posted": "2026-09-17",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1480,7 +1480,7 @@
    "posted": "2026-09-21",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1494,7 +1494,7 @@
    "posted": "2026-09-09",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1508,7 +1508,7 @@
    "posted": "2026-09-09",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1536,7 +1536,7 @@
    "posted": "2026-09-09",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1550,7 +1550,7 @@
    "posted": "2026-08-03",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1578,7 +1578,7 @@
    "posted": "2026-10-01",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1592,7 +1592,7 @@
    "posted": "2026-10-01",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1606,7 +1606,7 @@
    "posted": "2026-10-01",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1620,7 +1620,7 @@
    "posted": "2026-10-01",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1634,7 +1634,7 @@
    "posted": "2026-10-01",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1648,7 +1648,7 @@
    "posted": "2026-10-01",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1662,7 +1662,7 @@
    "posted": "2026-10-01",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1676,7 +1676,7 @@
    "posted": "2026-10-01",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1690,7 +1690,7 @@
    "posted": "2026-10-01",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1704,7 +1704,7 @@
    "posted": "2026-10-01",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1718,7 +1718,7 @@
    "posted": "2026-09-10",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1732,7 +1732,7 @@
    "posted": "2026-09-10",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -1902,7 +1902,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-23",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "b2596cd5b864bd89": {
    "title": "Boeing Engineering & Technology Innovation, Graduate Researcher Program \u2013  Computational Fluid Dynamics Intern",
@@ -1986,7 +1986,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-23",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "5ea715f22c85c4ac": {
    "title": "Power Delivery Engineering Intern",
@@ -1998,7 +1998,7 @@
    "posted": "",
    "year_confirmed": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2026,7 +2026,7 @@
    "posted": "",
    "year_confirmed": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2040,7 +2040,7 @@
    "posted": "",
    "year_confirmed": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2054,7 +2054,7 @@
    "posted": "",
    "year_confirmed": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2068,7 +2068,7 @@
    "posted": "",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2082,7 +2082,7 @@
    "posted": "",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2096,7 +2096,7 @@
    "posted": "",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2110,7 +2110,7 @@
    "posted": "",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2124,7 +2124,7 @@
    "posted": "",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2138,7 +2138,7 @@
    "posted": "",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2152,7 +2152,7 @@
    "posted": "",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2180,7 +2180,7 @@
    "posted": "",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2194,7 +2194,7 @@
    "posted": "",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2222,7 +2222,7 @@
    "posted": "",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2236,7 +2236,7 @@
    "posted": "",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2250,7 +2250,7 @@
    "posted": "",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2340,7 +2340,7 @@
    "year_confirmed": true,
    "desc": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT\u00a0aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Europe, the Middle East, and Asia-Pacific, Shield AI\u2019s technology actively supports operations worldwide. For more information, visit\u00a0www.shield.ai. Follow Shield AI on\u00a0LinkedIn,\u00a0X,\u00a0Instagram, and\u00a0YouTube.\u00a0\n\u00a0\nOur Summer Internship program is a wonderful opportunity for Fall and Spr",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2490,7 +2490,7 @@
    "year_confirmed": true,
    "desc": "Posted 30+ Days Ago",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2520,7 +2520,7 @@
    "year_confirmed": true,
    "desc": "Posted 30+ Days Ago",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2580,7 +2580,7 @@
    "year_confirmed": true,
    "desc": "Posted 30+ Days Ago",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2685,7 +2685,7 @@
    "year_confirmed": true,
    "desc": "Posted 5 Days Ago",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2700,7 +2700,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2715,7 +2715,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2730,7 +2730,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2745,7 +2745,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2760,7 +2760,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2775,7 +2775,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2790,7 +2790,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2805,7 +2805,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2850,9 +2850,9 @@
    "year_confirmed": true,
    "desc": "Summer 2027",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-24",
    "emailed": true,
-   "closed": true
+   "closed": false
   },
   "4ce59744f836315a": {
    "title": "Spacecraft Test Engineering Intern (Summer 2027)",
@@ -2865,7 +2865,7 @@
    "year_confirmed": true,
    "desc": "<h1>About the role</h1> <p>Summer internships will range between the months of May and September depending on university schedules. Internship is full-time and on-site in San Jose, California.</p> <p>The Assembly, Integration and Test (AIT) team at Muon is responsible for validation of spacecraft hardware through unit acceptance testing as well as spacecraft level integration testing. As a Test Engineering Intern, you will support the design, setup, and execution of tests for spacecraft subsystems. You will collaborate with engineers and technicians to develop test procedures, analyze data, an",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2925,7 +2925,7 @@
    "year_confirmed": true,
    "desc": "Posted Yesterday",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2940,7 +2940,7 @@
    "year_confirmed": true,
    "desc": "Posted Yesterday",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2955,7 +2955,7 @@
    "year_confirmed": true,
    "desc": "Posted Yesterday",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -2970,7 +2970,7 @@
    "year_confirmed": true,
    "desc": "Posted Yesterday",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -3120,7 +3120,7 @@
    "year_confirmed": true,
    "desc": "<div class=\"content-intro\"><p><strong>Advanced Reentry Technologies</strong></p> <p><strong>Who We Are:<br></strong></p> <p>Inversion is an aerospace and defense company pioneering advanced reentry technology to enable next-generation capabilities from space. By combining high-performance materials, precision aerodynamics, and mission-driven autonomy, Inversion is transforming reentry into an operational capability for an entirely new class of missions.</p> <p>The company\u2019s highly maneuverable reentry spacecraft, Arc, is designed for rapid global cargo delivery, hypersonic testing, and other n",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -3135,7 +3135,7 @@
    "year_confirmed": true,
    "desc": "<div class=\"content-intro\"><p><strong>Advanced Reentry Technologies</strong></p> <p><strong>Who We Are:<br></strong></p> <p>Inversion is an aerospace and defense company pioneering advanced reentry technology to enable next-generation capabilities from space. By combining high-performance materials, precision aerodynamics, and mission-driven autonomy, Inversion is transforming reentry into an operational capability for an entirely new class of missions.</p> <p>The company\u2019s highly maneuverable reentry spacecraft, Arc, is designed for rapid global cargo delivery, hypersonic testing, and other n",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -3195,7 +3195,7 @@
    "year_confirmed": true,
    "desc": "Posted Yesterday",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -3210,7 +3210,7 @@
    "year_confirmed": true,
    "desc": "Posted Yesterday",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -3390,7 +3390,7 @@
    "year_confirmed": false,
    "desc": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -3480,7 +3480,7 @@
    "year_confirmed": true,
    "desc": "<div class=\"content-intro\"><p><strong>Advanced Reentry Technologies</strong></p> <p><strong>Who We Are:<br></strong></p> <p>Inversion is an aerospace and defense company pioneering advanced reentry technology to enable next-generation capabilities from space. By combining high-performance materials, precision aerodynamics, and mission-driven autonomy, Inversion is transforming reentry into an operational capability for an entirely new class of missions.</p> <p>The company\u2019s highly maneuverable reentry spacecraft, Arc, is designed for rapid global cargo delivery, hypersonic testing, and other n",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -3525,7 +3525,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -3555,7 +3555,7 @@
    "year_confirmed": false,
    "desc": "Posted Today",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -3705,7 +3705,7 @@
    "year_confirmed": true,
    "desc": "<div class=\"content-intro\"><h2><span data-contrast=\"none\">About Varda</span></h2> <p>Low Earth orbit is open for business. Varda is accelerating the development of commercial space infrastructure, from in-orbit pharmaceutical processing to reliable and economical reentry capsules.&nbsp;<strong>Varda\u2019s W-Series vehicles are built, designed, and operated by Varda in-house, including the pharmaceutical processing payloads, the capsules, the C-PICA heat shields, and the satellite buses.</strong></p> <p>From life-saving pharmaceuticals to more powerful fiber optics, there is a world of products use",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -3930,7 +3930,7 @@
    "year_confirmed": false,
    "desc": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4020,7 +4020,7 @@
    "year_confirmed": false,
    "desc": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4065,7 +4065,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4170,7 +4170,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4185,7 +4185,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4200,7 +4200,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4217,7 +4217,7 @@
    "first_seen": "2026-10-20",
    "last_seen": "2026-10-23",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "3019a47190594c09": {
    "title": "Mechanical Design Engineering Intern",
@@ -4245,7 +4245,7 @@
    "year_confirmed": true,
    "desc": "<div class=\"content-intro\"><p><strong>ABOUT ROCKET LAB</strong></p> <p>Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity\u2019s reach to the Moon, Mars, and beyond. We move fast, build real hardware for meaningful missions, and make the impossible routine. Come shape the future with us.</p></div><div> <div> <p>As a&nbsp;Grounds Systems&nbsp;Engineering&nbsp;Intern&nbsp;based at Rocket Lab\u2019s site in&nbsp;Stennis,&nbsp;Mississippi, you will have the opportunity to support the&nbsp;Test Ground Syst",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4260,7 +4260,7 @@
    "year_confirmed": true,
    "desc": "<div class=\"content-intro\"><p>&nbsp;</p> <p><span data-teams=\"true\"><strong>The future of aerospace and defense starts here.&nbsp;<br></strong></span></p> <p><span data-teams=\"true\"><br>Ursa Major was founded to revolutionize how America and its allies access and apply high-performance propulsion, from hypersonics to solid rocket motors, satellite maneuvering and launch. We design and deliver propulsion and defense systems that solve the most urgent and critical national security demands.&nbsp;</span></p></div><p><span data-contrast=\"auto\">Ursa Major is currently seeking talented individuals f",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4275,7 +4275,7 @@
    "year_confirmed": true,
    "desc": "<div class=\"content-intro\"><p>&nbsp;</p> <p><span data-teams=\"true\"><strong>The future of aerospace and defense starts here.&nbsp;<br></strong></span></p> <p><span data-teams=\"true\"><br>Ursa Major was founded to revolutionize how America and its allies access and apply high-performance propulsion, from hypersonics to solid rocket motors, satellite maneuvering and launch. We design and deliver propulsion and defense systems that solve the most urgent and critical national security demands.&nbsp;</span></p></div><p><span data-contrast=\"auto\">Ursa Major is seeking a </span><strong><span data-cont",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4425,7 +4425,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4457,7 +4457,7 @@
    "first_seen": "2026-10-21",
    "last_seen": "2026-10-23",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "5e2e63c40c867e4c": {
    "title": "2027Aeronautical Integration and Test Intern -  Huntsville AL",
@@ -4500,7 +4500,7 @@
    "year_confirmed": true,
    "desc": "Posted Yesterday",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4515,7 +4515,7 @@
    "year_confirmed": false,
    "desc": "Posted Yesterday",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4530,7 +4530,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4605,7 +4605,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4637,7 +4637,7 @@
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "e222801e8a490b6f": {
    "title": "2027 Stress Analysis and Tooling Design Engineer Intern - Commerce CA",
@@ -4652,7 +4652,7 @@
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "9781acd93823aebe": {
    "title": "2027 Structural Engineer Intern - San Diego CA",
@@ -4667,7 +4667,7 @@
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "7e64f660dee8df91": {
    "title": "2027 Materials and Process Engineering Intern - San Diego CA",
@@ -4682,7 +4682,7 @@
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "f618abbdf5390aeb": {
    "title": "Transportation Engineering Intern",
@@ -4695,7 +4695,7 @@
    "year_confirmed": false,
    "desc": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4710,7 +4710,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4725,7 +4725,7 @@
    "year_confirmed": true,
    "desc": "Posted Yesterday",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4740,7 +4740,7 @@
    "year_confirmed": false,
    "desc": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4770,7 +4770,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4785,7 +4785,7 @@
    "year_confirmed": false,
    "desc": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4830,7 +4830,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4845,7 +4845,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4860,7 +4860,7 @@
    "year_confirmed": true,
    "desc": "<div class=\"content-intro\"><p>&nbsp;</p> <p><span data-teams=\"true\"><strong>The future of aerospace and defense starts here.&nbsp;<br></strong></span></p> <p><span data-teams=\"true\"><br>Ursa Major was founded to revolutionize how America and its allies access and apply high-performance propulsion, from hypersonics to solid rocket motors, satellite maneuvering and launch. We design and deliver propulsion and defense systems that solve the most urgent and critical national security demands.&nbsp;</span></p></div><p><strong><span data-contrast=\"auto\">Manufacturing Engineering Intern</span></stron",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4875,7 +4875,7 @@
    "year_confirmed": true,
    "desc": "Posted Yesterday",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4890,7 +4890,7 @@
    "year_confirmed": false,
    "desc": "Posted Yesterday",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4905,7 +4905,7 @@
    "year_confirmed": false,
    "desc": "Posted Yesterday",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4920,7 +4920,7 @@
    "year_confirmed": false,
    "desc": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4935,7 +4935,7 @@
    "year_confirmed": true,
    "desc": "Posted Yesterday",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4950,7 +4950,7 @@
    "year_confirmed": true,
    "desc": "Posted Yesterday",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4965,7 +4965,7 @@
    "year_confirmed": true,
    "desc": "Posted Yesterday",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4980,7 +4980,7 @@
    "year_confirmed": true,
    "desc": "Posted Yesterday",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   },
@@ -4995,7 +4995,142 @@
    "year_confirmed": true,
    "desc": "Posted Yesterday",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
+   "emailed": true,
+   "closed": false
+  },
+  "498171d303596fd1": {
+   "title": "2027 Materials and Process Engineering Intern - San Diego CA",
+   "company": "Northrop Grumman",
+   "location": "San Diego, CA",
+   "url": "https://www.linkedin.com/jobs/view/2027-materials-and-process-engineering-intern-san-diego-ca-at-northrop-grumman-4482828132",
+   "src": "linkedin",
+   "prio": 2,
+   "posted": "2026-10-23",
+   "year_confirmed": true,
+   "desc": "",
+   "first_seen": "2026-10-24",
+   "last_seen": "2026-10-24",
+   "emailed": true,
+   "closed": false
+  },
+  "7af1bedabd519944": {
+   "title": "Mechanical Design Intern",
+   "company": "Lockheed Martin",
+   "location": "Grand Prairie, TX",
+   "url": "https://www.linkedin.com/jobs/view/mechanical-design-intern-at-lockheed-martin-4480663335",
+   "src": "linkedin",
+   "prio": 2,
+   "posted": "2026-10-23",
+   "year_confirmed": false,
+   "desc": "",
+   "first_seen": "2026-10-24",
+   "last_seen": "2026-10-24",
+   "emailed": true,
+   "closed": false
+  },
+  "9e0c00ab65211ce2": {
+   "title": "Design Engineering Intern",
+   "company": "Curtiss-Wright Corporation",
+   "location": "East Farmingdale, NY",
+   "url": "https://www.linkedin.com/jobs/view/design-engineering-intern-at-curtiss-wright-corporation-4463486415",
+   "src": "linkedin",
+   "prio": 2,
+   "posted": "2026-10-22",
+   "year_confirmed": false,
+   "desc": "",
+   "first_seen": "2026-10-24",
+   "last_seen": "2026-10-24",
+   "emailed": true,
+   "closed": false
+  },
+  "7b55639b33cd8187": {
+   "title": "Mechanical Engineering Intern - CW",
+   "company": "Teledyne Technologies Incorporated",
+   "location": "Wilsonville, OR",
+   "url": "https://www.linkedin.com/jobs/view/mechanical-engineering-intern-cw-at-teledyne-technologies-incorporated-4480034699",
+   "src": "linkedin",
+   "prio": 2,
+   "posted": "2026-10-24",
+   "year_confirmed": false,
+   "desc": "",
+   "first_seen": "2026-10-24",
+   "last_seen": "2026-10-24",
+   "emailed": true,
+   "closed": false
+  },
+  "4c3cfe8978737098": {
+   "title": "Engineering Intern",
+   "company": "BAE Systems, Inc.",
+   "location": "California, MD",
+   "url": "https://www.linkedin.com/jobs/view/engineering-intern-at-bae-systems-inc-4480672751",
+   "src": "linkedin",
+   "prio": 2,
+   "posted": "2026-10-23",
+   "year_confirmed": false,
+   "desc": "",
+   "first_seen": "2026-10-24",
+   "last_seen": "2026-10-24",
+   "emailed": true,
+   "closed": false
+  },
+  "ac852d4196cee77a": {
+   "title": "2027 Mission Assurance / Quality Assurance Intern - Roy UT",
+   "company": "Northrop Grumman",
+   "location": "Roy, UT",
+   "url": "https://www.linkedin.com/jobs/view/2027-mission-assurance-quality-assurance-intern-roy-ut-at-northrop-grumman-4482429424",
+   "src": "linkedin",
+   "prio": 2,
+   "posted": "2026-10-22",
+   "year_confirmed": true,
+   "desc": "",
+   "first_seen": "2026-10-24",
+   "last_seen": "2026-10-24",
+   "emailed": true,
+   "closed": false
+  },
+  "5da948167d49d207": {
+   "title": "Intern, Manufacturing Engineering",
+   "company": "L3Harris Technologies",
+   "location": "Tempe, AZ",
+   "url": "https://www.linkedin.com/jobs/view/intern-manufacturing-engineering-at-l3harris-technologies-4474178829",
+   "src": "linkedin",
+   "prio": 2,
+   "posted": "2026-10-22",
+   "year_confirmed": false,
+   "desc": "",
+   "first_seen": "2026-10-24",
+   "last_seen": "2026-10-24",
+   "emailed": true,
+   "closed": false
+  },
+  "664d9f3cb0762f75": {
+   "title": "Process Engineer Intern, Summer 2027",
+   "company": "Parsons",
+   "location": "",
+   "url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---KY-Lexington/Process-Engineer-Intern--Summer-2027_R187663",
+   "src": "workday:parsons",
+   "prio": 0,
+   "posted": "",
+   "year_confirmed": true,
+   "desc": "",
+   "first_seen": "2026-10-24",
+   "last_seen": "2026-10-24",
+   "emailed": true,
+   "closed": false
+  },
+  "a50365b06374e86e": {
+   "title": "Mechanical Engineer Intern - Summer 2027 (For SNC Summer 2026 Interns Only)",
+   "company": "Sierra Nevada Corporation",
+   "location": "Lone Tree, CO",
+   "url": "https://snc.wd1.myworkdayjobs.com/en-US/SNC_External_Career_Site/job/Lone-Tree-CO/Mechanical-Engineer-Intern---Summer-2027_R0031084",
+   "src": "workday:snc",
+   "prio": 0,
+   "posted": "",
+   "year_confirmed": true,
+   "desc": "Posted Yesterday",
+   "first_seen": "2026-10-24",
+   "last_seen": "2026-10-24",
    "emailed": true,
    "closed": false
   }
@@ -18762,8 +18897,8 @@
    "checked": "2026-10-13"
   }
  },
- "last_email_date": "2026-10-23",
- "runs": 28,
+ "last_email_date": "2026-10-24",
+ "runs": 29,
  "emailed_urls": [
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/XMLNAME-2027-Space-Systems-Architecture-Undergrad-Intern_R016772",
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/El-Segundo-CA/XMLNAME-2027-Electromechanical-Undergraduate-Intern_R016918",
@@ -18941,6 +19076,7 @@
   "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---GA-Savannah/Roadway-Engineering-Intern---Spring-Summer-2027_R185692",
   "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---IL-Chicago/Structural-Engineer-Intern---Summer-2027_R185393",
   "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---IN-Indianapolis/Roadway-Engineering-Intern---Summer-2027_R184488",
+  "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---KY-Lexington/Process-Engineer-Intern--Summer-2027_R187663",
   "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---NC-Raleigh/Transportation-Engineering-Intern---Summer-2027_R187423-1",
   "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---NY-New-York/Bridge-Engineering-Intern---Summer-2027_R184234",
   "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---SC-Columbia/Drainage-Engineering-Intern---Summer-2027_R185685-1",
@@ -18990,6 +19126,8 @@
   "https://www.linkedin.com/jobs/view/2027-flight-test-engineer-intern-at-anduril-industries-4479594996",
   "https://www.linkedin.com/jobs/view/2027-intern-guidance-navigation-and-control-engineer-at-northrop-grumman-4480859577",
   "https://www.linkedin.com/jobs/view/2027-manufacturing-engineer-intern-at-anduril-industries-4427640589",
+  "https://www.linkedin.com/jobs/view/2027-materials-and-process-engineering-intern-san-diego-ca-at-northrop-grumman-4482828132",
+  "https://www.linkedin.com/jobs/view/2027-mission-assurance-quality-assurance-intern-roy-ut-at-northrop-grumman-4482429424",
   "https://www.linkedin.com/jobs/view/2027-spring-summer-co-op-systems-engineering-onsite-at-collins-aerospace-4472706499",
   "https://www.linkedin.com/jobs/view/2027-summer-propulsion-engineer-hypersonic-vehicle-intern-at-ursa-major-4482779329",
   "https://www.linkedin.com/jobs/view/2027-systems-engineering-intern-aurora-co-at-northrop-grumman-4480854861",
@@ -19007,7 +19145,9 @@
   "https://www.linkedin.com/jobs/view/cad-engineer-intern-summer-2027-at-astranis-space-technologies-4453786336",
   "https://www.linkedin.com/jobs/view/ch-53k-systems-engineering-coop-spring-summer-2027-onsite-at-collins-aerospace-4464690305",
   "https://www.linkedin.com/jobs/view/cryogenics-engineering-intern-summer-2027-at-bae-systems-inc-4477708776",
+  "https://www.linkedin.com/jobs/view/design-engineering-intern-at-curtiss-wright-corporation-4463486415",
   "https://www.linkedin.com/jobs/view/engineer-intern-%E2%80%93-system-integration-summer-2027-at-bae-systems-inc-4473712467",
+  "https://www.linkedin.com/jobs/view/engineering-intern-at-bae-systems-inc-4480672751",
   "https://www.linkedin.com/jobs/view/engineering-intern-at-pursuit-aerospace-4477918985",
   "https://www.linkedin.com/jobs/view/engineering-intern-at-redwire-4482018902",
   "https://www.linkedin.com/jobs/view/engineering-intern-space-propulsion-systems-at-kratos-defense-and-security-solutions-4479558208",
@@ -19020,6 +19160,7 @@
   "https://www.linkedin.com/jobs/view/head-up-guidance-systems-engineering-co-op-spring-summer-2027-onsite-at-collins-aerospace-4470239594",
   "https://www.linkedin.com/jobs/view/intern-aerospace-aeronautical-engineering-at-general-atomics-4469538445",
   "https://www.linkedin.com/jobs/view/intern-manufacturing-engineer-at-l3harris-technologies-4478721383",
+  "https://www.linkedin.com/jobs/view/intern-manufacturing-engineering-at-l3harris-technologies-4474178829",
   "https://www.linkedin.com/jobs/view/isc-urdp-engineering-summer-2027-intern-phoenix-az-u-s-person-required-at-honeywell-aerospace-4462082870",
   "https://www.linkedin.com/jobs/view/isc-urdp-engineering-summer-2027-intern-phoenix-az-u-s-person-required-at-honeywell-aerospace-4462089765",
   "https://www.linkedin.com/jobs/view/manufacturing-engineer-intern-at-lockheed-martin-4478990721",
@@ -19043,10 +19184,12 @@
   "https://www.linkedin.com/jobs/view/mechanical-design-engineering-intern-summer-2027-at-bae-systems-inc-4477720279",
   "https://www.linkedin.com/jobs/view/mechanical-design-engineering-intern-summer-2027-at-collins-aerospace-4479501184",
   "https://www.linkedin.com/jobs/view/mechanical-design-engineering-intern-summer-2027-at-collins-aerospace-4480318329",
+  "https://www.linkedin.com/jobs/view/mechanical-design-intern-at-lockheed-martin-4480663335",
   "https://www.linkedin.com/jobs/view/mechanical-engineer-intern-summer-2027-at-astranis-space-technologies-4453789256",
   "https://www.linkedin.com/jobs/view/mechanical-engineer-intern-summer-2027-at-raytheon-4478354768",
   "https://www.linkedin.com/jobs/view/mechanical-engineer-summer-internship-2027-at-inversion-4479727652",
   "https://www.linkedin.com/jobs/view/mechanical-engineering-intern-%E2%80%93-summer-2027-at-k2-space-corporation-4459271768",
+  "https://www.linkedin.com/jobs/view/mechanical-engineering-intern-cw-at-teledyne-technologies-incorporated-4480034699",
   "https://www.linkedin.com/jobs/view/mechanical-engineering-intern-summer-2027-at-collins-aerospace-4479500216",
   "https://www.linkedin.com/jobs/view/mechanical-engineering-intern-summer-2027-at-collins-aerospace-4482095032",
   "https://www.linkedin.com/jobs/view/mechanical-engineering-intern-summer-2027-at-second-order-effects-4439666364",
