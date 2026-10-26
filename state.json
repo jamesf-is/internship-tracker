@@ -4200,7 +4200,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "emailed": true,
    "closed": false
   },
@@ -4830,7 +4830,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "emailed": true,
    "closed": false
   },
@@ -4845,7 +4845,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "emailed": true,
    "closed": false
   },
@@ -5205,7 +5205,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-25",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "emailed": true,
    "closed": false
   },
@@ -5282,6 +5282,36 @@
    "first_seen": "2026-10-26",
    "last_seen": "2026-10-26",
    "emailed": true,
+   "closed": false
+  },
+  "d162097c8b2ee224": {
+   "title": "Engineering Intern-SV Engineering- Mission Operations",
+   "company": "York Space Systems",
+   "location": "Greenwood Village, CO",
+   "url": "https://www.linkedin.com/jobs/view/engineering-intern-sv-engineering-mission-operations-at-york-space-systems-4427860494",
+   "src": "linkedin",
+   "prio": 2,
+   "posted": "2026-10-25",
+   "year_confirmed": false,
+   "desc": "",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "emailed": false,
+   "closed": false
+  },
+  "0bcb4272abd97408": {
+   "title": "2027 Summer Additive Manufacturing Engineering Intern",
+   "company": "Ursa Major",
+   "location": "Youngstown, Ohio",
+   "url": "https://ursamajor.com/careers/?gh_jid=4746892005",
+   "src": "greenhouse:ursamajor",
+   "prio": 0,
+   "posted": "2026-10-26",
+   "year_confirmed": true,
+   "desc": "<div class=\"content-intro\"><p>&nbsp;</p> <p><span data-teams=\"true\"><strong>The future of aerospace and defense starts here.&nbsp;<br></strong></span></p> <p><span data-teams=\"true\"><br>Ursa Major was founded to revolutionize how America and its allies access and apply high-performance propulsion, from hypersonics to solid rocket motors, satellite maneuvering and launch. We design and deliver propulsion and defense systems that solve the most urgent and critical national security demands.&nbsp;</span></p></div><p><span data-contrast=\"auto\">Ursa Major is currently seeking talented individuals f",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "emailed": false,
    "closed": false
   }
  },
@@ -19048,7 +19078,7 @@
   }
  },
  "last_email_date": "2026-10-26",
- "runs": 33,
+ "runs": 34,
  "emailed_urls": [
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/XMLNAME-2027-Space-Systems-Architecture-Undergrad-Intern_R016772",
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/El-Segundo-CA/XMLNAME-2027-Electromechanical-Undergraduate-Intern_R016918",
