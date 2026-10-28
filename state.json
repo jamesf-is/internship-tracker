@@ -5763,6 +5763,21 @@
    "last_seen": "2026-10-28",
    "emailed": true,
    "closed": false
+  },
+  "1ac51ffa0085a3b2": {
+   "title": "Robotics Engineering Intern",
+   "company": "Intuitive",
+   "location": "Sunnyvale, CA",
+   "url": "https://jobs.smartrecruiters.com/intuitive/744000158313717",
+   "src": "smartrecruiters:intuitive",
+   "prio": 0,
+   "posted": "2026-10-28",
+   "year_confirmed": false,
+   "desc": "",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "emailed": false,
+   "closed": false
   }
  },
  "boards": {
@@ -19528,7 +19543,7 @@
   }
  },
  "last_email_date": "2026-10-28",
- "runs": 37,
+ "runs": 38,
  "emailed_urls": [
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/XMLNAME-2027-Space-Systems-Architecture-Undergrad-Intern_R016772",
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/El-Segundo-CA/XMLNAME-2027-Communication-Architectures-Modeling-and-Analysis-Engineering-Undergraduate-Intern_R017009",
