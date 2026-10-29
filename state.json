@@ -5958,6 +5958,36 @@
    "last_seen": "2026-10-29",
    "emailed": true,
    "closed": false
+  },
+  "a14ced68c28940dd": {
+   "title": "Summer 2027 - Mechanical Engineering Intern, Air Vehicle Systems and Test #6465+",
+   "company": "Shield",
+   "location": "Dallas, TX",
+   "url": "https://www.linkedin.com/jobs/view/summer-2027-mechanical-engineering-intern-air-vehicle-systems-and-test-%236465%2B-at-shield-4484714913",
+   "src": "linkedin",
+   "prio": 2,
+   "posted": "2026-10-28",
+   "year_confirmed": true,
+   "desc": "",
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "emailed": false,
+   "closed": false
+  },
+  "5e3798de9eed11ed": {
+   "title": "2027 Structural Engineering Intern- Roy UT",
+   "company": "Northrop Grumman",
+   "location": "United States-Utah-Roy",
+   "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Structural-Engineering-Intern--Roy-UT_R10258270",
+   "src": "workday:ngc",
+   "prio": 0,
+   "posted": "",
+   "year_confirmed": true,
+   "desc": "Posted Today",
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "emailed": false,
+   "closed": false
   }
  },
  "boards": {
@@ -19723,7 +19753,7 @@
   }
  },
  "last_email_date": "2026-10-29",
- "runs": 39,
+ "runs": 40,
  "emailed_urls": [
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/XMLNAME-2027-Space-Systems-Architecture-Undergrad-Intern_R016772",
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/El-Segundo-CA/XMLNAME-2027-Communication-Architectures-Modeling-and-Analysis-Engineering-Undergraduate-Intern_R017009",
