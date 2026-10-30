@@ -6348,6 +6348,21 @@
    "last_seen": "2026-10-30",
    "emailed": true,
    "closed": false
+  },
+  "eaa9e1dc594ee6fc": {
+   "title": "2027 Intern Engineer - Product Support",
+   "company": "Northrop Grumman",
+   "location": "United States-Florida-Melbourne",
+   "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Engineer---Product-Support_R10258530",
+   "src": "workday:ngc",
+   "prio": 0,
+   "posted": "",
+   "year_confirmed": true,
+   "desc": "Posted Today",
+   "first_seen": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "emailed": false,
+   "closed": false
   }
  },
  "boards": {
@@ -20113,7 +20128,7 @@
   }
  },
  "last_email_date": "2026-10-30",
- "runs": 41,
+ "runs": 42,
  "emailed_urls": [
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/XMLNAME-2027-Space-Systems-Architecture-Undergrad-Intern_R016772",
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/El-Segundo-CA/XMLNAME-2027-Communication-Architectures-Modeling-and-Analysis-Engineering-Undergraduate-Intern_R017009",
