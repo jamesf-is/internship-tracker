@@ -3557,7 +3557,7 @@
    "first_seen": "2026-10-16",
    "last_seen": "2026-11-03",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "9efbfcf1baa1afcc": {
    "title": "Aerospace Engineering Intern 1",
@@ -5747,7 +5747,7 @@
    "first_seen": "2026-10-28",
    "last_seen": "2026-11-03",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "21a7cf3f4b585b58": {
    "title": "2027 Communication Architectures Modeling and Analysis Engineering Undergraduate Intern",
@@ -6827,6 +6827,21 @@
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-03",
    "emailed": true,
+   "closed": false
+  },
+  "6be9e58cba282296": {
+   "title": "I&C Engineering Intern",
+   "company": "Parsons",
+   "location": "",
+   "url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---CA-Pasadena/I-C-Engineering-Intern_R187609",
+   "src": "workday:parsons",
+   "prio": 0,
+   "posted": "",
+   "year_confirmed": false,
+   "desc": "",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "emailed": false,
    "closed": false
   }
  },
@@ -20593,7 +20608,7 @@
   }
  },
  "last_email_date": "2026-11-03",
- "runs": 49,
+ "runs": 50,
  "emailed_urls": [
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/XMLNAME-2027-Space-Systems-Architecture-Undergrad-Intern_R016772",
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/El-Segundo-CA/XMLNAME-2027-Communication-Architectures-Modeling-and-Analysis-Engineering-Undergraduate-Intern_R017009",
