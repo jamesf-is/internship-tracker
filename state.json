@@ -7201,7 +7201,7 @@
    "desc": "",
    "first_seen": "2026-11-08",
    "last_seen": "2026-11-08",
-   "emailed": false,
+   "emailed": true,
    "closed": false
   }
  },
@@ -20967,8 +20967,8 @@
    "checked": "2026-10-27"
   }
  },
- "last_email_date": "2026-11-07",
- "runs": 59,
+ "last_email_date": "2026-11-08",
+ "runs": 60,
  "emailed_urls": [
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/XMLNAME-2027-Space-Systems-Architecture-Undergrad-Intern_R016772",
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/El-Segundo-CA/XMLNAME-2027-Battery-Test-Lab-Undergraduate-Intern_R016885",
@@ -21396,6 +21396,7 @@
   "https://www.linkedin.com/jobs/view/summer-2027-mechanical-engineering-internship-at-cesiumastro-4467924220",
   "https://www.linkedin.com/jobs/view/summer-2027-systems-engineering-internship-at-cesiumastro-4467918289",
   "https://www.linkedin.com/jobs/view/summer-2027-systems-engineering-internship-at-cesiumastro-4472219438",
+  "https://www.linkedin.com/jobs/view/summer-research-program-intern-2027-fabrication-engineering-integration-group-07-72-at-mit-lincoln-laboratory-4488443085",
   "https://www.linkedin.com/jobs/view/summer-research-program-intern-2027-structural-thermal-fluids-engineering-group-group-07-74-at-mit-lincoln-laboratory-4482145654",
   "https://www.linkedin.com/jobs/view/system-test-development-intern-missile-focus-summer-2027-at-bae-systems-inc-4476076408",
   "https://www.linkedin.com/jobs/view/systems-engineer-integration-and-test-intern-at-lockheed-martin-4477393606",
