@@ -2537,7 +2537,7 @@
    "first_seen": "2026-10-13",
    "last_seen": "2026-11-12",
    "emailed": true,
-   "closed": false
+   "closed": true
   },
   "8637833a2875679b": {
    "title": "Mechanical Engineering Intern (Summer 2027)",
@@ -21418,7 +21418,7 @@
   }
  },
  "last_email_date": "2026-11-12",
- "runs": 67,
+ "runs": 68,
  "emailed_urls": [
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/XMLNAME-2027-Space-Systems-Architecture-Undergrad-Intern_R016772",
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Colorado-Springs-CO/XMLNAME-2027-Space-Domain-Awareness-Undergraduate-Intern_R017183",
