@@ -7878,6 +7878,21 @@
    "last_seen": "2026-11-13",
    "emailed": true,
    "closed": false
+  },
+  "4bed834c567336fb": {
+   "title": "2027 Materials & Process Engineering Intern - Northridge CA",
+   "company": "Northrop Grumman",
+   "location": "United States-California-Northridge",
+   "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-California-Northridge/XMLNAME-2027-Materials---Process-Engineering-Intern---Northridge-CA_R10260526",
+   "src": "workday:ngc",
+   "prio": 0,
+   "posted": "",
+   "year_confirmed": true,
+   "desc": "Posted Today",
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-13",
+   "emailed": false,
+   "closed": false
   }
  },
  "boards": {
@@ -21643,7 +21658,7 @@
   }
  },
  "last_email_date": "2026-11-13",
- "runs": 69,
+ "runs": 70,
  "emailed_urls": [
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/XMLNAME-2027-Space-Systems-Architecture-Undergrad-Intern_R016772",
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Colorado-Springs-CO/XMLNAME-2027-Space-Domain-Awareness-Undergraduate-Intern_R017183",
