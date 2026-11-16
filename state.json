@@ -8433,6 +8433,21 @@
    "last_seen": "2026-11-16",
    "emailed": true,
    "closed": false
+  },
+  "01aeedcc57fa12d8": {
+   "title": "Industrial Engineering Co-Op (Spring/Summer 2027)",
+   "company": "Collins Aerospace",
+   "location": "Cedar Rapids, IA",
+   "url": "https://www.linkedin.com/jobs/view/industrial-engineering-co-op-spring-summer-2027-at-collins-aerospace-4491530752",
+   "src": "linkedin",
+   "prio": 2,
+   "posted": "2026-11-16",
+   "year_confirmed": true,
+   "desc": "",
+   "first_seen": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "emailed": false,
+   "closed": false
   }
  },
  "boards": {
@@ -22198,7 +22213,7 @@
   }
  },
  "last_email_date": "2026-11-16",
- "runs": 75,
+ "runs": 76,
  "emailed_urls": [
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/XMLNAME-2027-Space-Systems-Architecture-Undergrad-Intern_R016772",
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Colorado-Springs-CO/XMLNAME-2027-Space-Domain-Awareness-Undergraduate-Intern_R017183",
