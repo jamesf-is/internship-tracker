@@ -9108,6 +9108,51 @@
    "last_seen": "2026-11-20",
    "emailed": true,
    "closed": false
+  },
+  "5898cb0ec37a055d": {
+   "title": "2027 Composites Undergraduate Intern",
+   "company": "The Aerospace Corporation",
+   "location": "El Segundo, CA",
+   "url": "https://www.linkedin.com/jobs/view/2027-composites-undergraduate-intern-at-the-aerospace-corporation-4491333562",
+   "src": "linkedin",
+   "prio": 2,
+   "posted": "2026-11-18",
+   "year_confirmed": true,
+   "desc": "",
+   "first_seen": "2026-11-21",
+   "last_seen": "2026-11-21",
+   "emailed": true,
+   "closed": false
+  },
+  "8ed52fffd4f705ef": {
+   "title": "GE Aerospace Research - Coatings Internship",
+   "company": "GE Aerospace",
+   "location": "Niskayuna, NY",
+   "url": "https://www.linkedin.com/jobs/view/ge-aerospace-research-coatings-internship-at-ge-aerospace-4492204517",
+   "src": "linkedin",
+   "prio": 2,
+   "posted": "2026-11-18",
+   "year_confirmed": false,
+   "desc": "",
+   "first_seen": "2026-11-21",
+   "last_seen": "2026-11-21",
+   "emailed": true,
+   "closed": false
+  },
+  "7f0e8aaf34ec1f42": {
+   "title": "Summer 2027 - Mechanical Engineering Internship",
+   "company": "CesiumAstro",
+   "location": "El Segundo, CA",
+   "url": "https://www.linkedin.com/jobs/view/summer-2027-mechanical-engineering-internship-at-cesiumastro-4493247087",
+   "src": "linkedin",
+   "prio": 2,
+   "posted": "2026-11-21",
+   "year_confirmed": true,
+   "desc": "",
+   "first_seen": "2026-11-21",
+   "last_seen": "2026-11-21",
+   "emailed": true,
+   "closed": false
   }
  },
  "boards": {
@@ -22872,8 +22917,8 @@
    "checked": "2026-11-10"
   }
  },
- "last_email_date": "2026-11-20",
- "runs": 85,
+ "last_email_date": "2026-11-21",
+ "runs": 86,
  "emailed_urls": [
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/XMLNAME-2027-Space-Systems-Architecture-Undergrad-Intern_R016772",
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Colorado-Springs-CO/XMLNAME-2027-Space-Domain-Awareness-Undergraduate-Intern_R017183",
@@ -23181,6 +23226,7 @@
   "https://woodward.wd5.myworkdayjobs.com/en-US/Woodward/job/Zeeland-MI-US/Engineering-Co-op---Design-Engineering---Zeeland--MI--Summer-2027-_JR112252",
   "https://woodward.wd5.myworkdayjobs.com/en-US/Woodward/job/Zeeland-MI-US/Engineering-Co-op---Manufacturing-Engineering---Zeeland--MI--Summer-2027-_JR112088",
   "https://www.linkedin.com/jobs/view/2027-aeronautical-engineering-intern-sunnyvale-ca-at-northrop-grumman-4491077209",
+  "https://www.linkedin.com/jobs/view/2027-composites-undergraduate-intern-at-the-aerospace-corporation-4491333562",
   "https://www.linkedin.com/jobs/view/2027-flight-test-engineer-intern-at-anduril-industries-4479594996",
   "https://www.linkedin.com/jobs/view/2027-intern-guidance-navigation-and-control-engineer-at-northrop-grumman-4480859577",
   "https://www.linkedin.com/jobs/view/2027-internship-mechanical-fabrication-intern-at-johns-hopkins-applied-physics-laboratory-4488998550",
@@ -23267,6 +23313,7 @@
   "https://www.linkedin.com/jobs/view/flight-controls-systems-intern-summer-2027-onsite-at-collins-aerospace-4469119686",
   "https://www.linkedin.com/jobs/view/flight-test-engineer-intern-summer-2027-at-zipline-4468173938",
   "https://www.linkedin.com/jobs/view/flight-test-instrumentation-engineer-intern-at-lockheed-martin-4491611992",
+  "https://www.linkedin.com/jobs/view/ge-aerospace-research-coatings-internship-at-ge-aerospace-4492204517",
   "https://www.linkedin.com/jobs/view/ge-aerospace-research-composites-internship-2027-at-ge-aerospace-4491748290",
   "https://www.linkedin.com/jobs/view/guidance-navigation-and-control-intern-summer-2027-at-astranis-space-technologies-4469403409",
   "https://www.linkedin.com/jobs/view/guidance-navigation-controls-gn-c-engineering-intern-summer-2027-at-bae-systems-inc-4477728955",
@@ -23406,6 +23453,7 @@
   "https://www.linkedin.com/jobs/view/summer-2027-mechanical-engineering-internship-at-cesiumastro-4467914366",
   "https://www.linkedin.com/jobs/view/summer-2027-mechanical-engineering-internship-at-cesiumastro-4467924220",
   "https://www.linkedin.com/jobs/view/summer-2027-mechanical-engineering-internship-at-cesiumastro-4489129258",
+  "https://www.linkedin.com/jobs/view/summer-2027-mechanical-engineering-internship-at-cesiumastro-4493247087",
   "https://www.linkedin.com/jobs/view/summer-2027-systems-engineering-internship-at-cesiumastro-4467918289",
   "https://www.linkedin.com/jobs/view/summer-2027-systems-engineering-internship-at-cesiumastro-4472219438",
   "https://www.linkedin.com/jobs/view/summer-research-program-intern-2027-fabrication-engineering-integration-group-07-72-at-mit-lincoln-laboratory-4488443085",
