@@ -304,7 +304,7 @@
    "posted": "2026-10-13",
    "year_confirmed": true,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-25",
    "emailed": true,
    "closed": false
   },
@@ -3105,7 +3105,7 @@
    "year_confirmed": false,
    "desc": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "emailed": true,
    "closed": false
   },
@@ -4886,13 +4886,13 @@
    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Missile-Systems-Engineer-Intern_R-00195265",
    "src": "workday:leidos",
    "prio": 0,
-   "posted": "",
+   "posted": "2026-11-25",
    "year_confirmed": false,
    "desc": "Posted Yesterday",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-11-25",
    "emailed": true,
-   "closed": true
+   "closed": false
   },
   "78edb20cfb4b5045": {
    "title": "Lunar Terrain Vehicle \u2013 Engineering Intern",
@@ -8355,7 +8355,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-25",
    "emailed": true,
    "closed": false
   },
@@ -9270,7 +9270,7 @@
    "year_confirmed": false,
    "desc": "",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-25",
    "emailed": true,
    "closed": false
   },
@@ -9392,6 +9392,36 @@
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
    "emailed": true,
+   "closed": false
+  },
+  "0cc9b525d7843a7e": {
+   "title": "Satellite Operations Intern",
+   "company": "Lockheed Martin",
+   "location": "Sunnyvale, CA",
+   "url": "https://www.linkedin.com/jobs/view/satellite-operations-intern-at-lockheed-martin-4493427746",
+   "src": "linkedin",
+   "prio": 2,
+   "posted": "2026-11-25",
+   "year_confirmed": false,
+   "desc": "",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "emailed": false,
+   "closed": false
+  },
+  "d414108c81b623b8": {
+   "title": "Test Engineering Intern \u2013 EE Major (ANX0050)",
+   "company": "AeroNex Systems",
+   "location": "Milwaukee, WI",
+   "url": "https://www.linkedin.com/jobs/view/test-engineering-intern-%E2%80%93-ee-major-anx0050-at-aeronex-systems-4494693619",
+   "src": "linkedin",
+   "prio": 2,
+   "posted": "2026-11-25",
+   "year_confirmed": false,
+   "desc": "",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "emailed": false,
    "closed": false
   }
  },
@@ -23158,7 +23188,7 @@
   }
  },
  "last_email_date": "2026-11-25",
- "runs": 93,
+ "runs": 94,
  "emailed_urls": [
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/XMLNAME-2027-Space-Systems-Architecture-Undergrad-Intern_R016772",
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Colorado-Springs-CO/XMLNAME-2027-Space-Domain-Awareness-Undergraduate-Intern_R017183",
