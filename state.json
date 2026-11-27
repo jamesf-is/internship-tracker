@@ -3390,7 +3390,7 @@
    "year_confirmed": false,
    "desc": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-27",
    "emailed": true,
    "closed": false
   },
@@ -3405,7 +3405,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-27",
    "emailed": true,
    "closed": false
   },
@@ -7035,7 +7035,7 @@
    "year_confirmed": true,
    "desc": "",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-27",
    "emailed": true,
    "closed": false
   },
@@ -9482,6 +9482,36 @@
    "first_seen": "2026-11-27",
    "last_seen": "2026-11-27",
    "emailed": true,
+   "closed": false
+  },
+  "6b648a1916c13c7b": {
+   "title": "Production Engineering Intern",
+   "company": "Astrolab",
+   "location": "Hawthorne, CA",
+   "url": "https://www.linkedin.com/jobs/view/production-engineering-intern-at-astrolab-4493436734",
+   "src": "linkedin",
+   "prio": 2,
+   "posted": "2026-11-25",
+   "year_confirmed": false,
+   "desc": "",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "emailed": false,
+   "closed": false
+  },
+  "11a613f8b92e63ee": {
+   "title": "ISC University Relations Development Program (URDP) - Engineering - Summer 2027 Intern Minneapolis, MN and Clearwater, FL (U.S. Citizen Required)",
+   "company": "Honeywell Aerospace",
+   "location": "United States",
+   "url": "https://www.linkedin.com/jobs/view/isc-university-relations-development-program-urdp-engineering-summer-2027-intern-minneapolis-mn-and-clearwater-fl-u-s-citizen-required-at-honeywell-aerospace-4462096225",
+   "src": "linkedin",
+   "prio": 2,
+   "posted": "2026-11-26",
+   "year_confirmed": true,
+   "desc": "",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "emailed": false,
    "closed": false
   }
  },
@@ -23248,7 +23278,7 @@
   }
  },
  "last_email_date": "2026-11-27",
- "runs": 97,
+ "runs": 98,
  "emailed_urls": [
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/XMLNAME-2027-Space-Systems-Architecture-Undergrad-Intern_R016772",
   "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Colorado-Springs-CO/XMLNAME-2027-Space-Domain-Awareness-Undergraduate-Intern_R017183",
